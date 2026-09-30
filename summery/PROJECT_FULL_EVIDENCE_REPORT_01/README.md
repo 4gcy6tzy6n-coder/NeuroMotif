@@ -60,7 +60,7 @@ The experiment-package audit found all 26 local model and results package direct
 
 ## Exact next action
 
-Use this report for owner/author review and decide whether to pursue a narrower negative/boundary manuscript and which venue could support its actual contribution. Do not add another isolated simulation or claim prospective validation. Reopen prospective biology only when a specific accessible lab, assay, independent unit, and data path are confirmed; then design a new study before outcomes. This report does not complete the original four-result positive objective.
+Use this report for owner/author review. The current official venue-fit assessment finds no submission-ready journal on the present evidence; see [`PROJECT_FULL_SCOPE_VENUE_FIT_01`](../PROJECT_FULL_SCOPE_VENUE_FIT_01/README.md). Do not add another isolated simulation or claim prospective validation. Reopen prospective biology only when a specific accessible lab, assay, independent unit, and data path are confirmed; then design a new study before outcomes. This report does not complete the original four-result positive objective.
 
 ## Provenance
 
