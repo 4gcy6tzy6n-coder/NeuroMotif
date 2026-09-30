@@ -1,0 +1,67 @@
+{
+  "status": "POST_RESULT_DAGGER_BASELINE_REPAIR",
+  "seed": 20261004,
+  "training": {
+    "parameters": 1025,
+    "pretraining": {
+      "parameters": 1025,
+      "first_epoch_mse": 0.24302751291543245,
+      "last_epoch_mse": 0.014894324296619743,
+      "epochs": 8,
+      "training_episodes": 512,
+      "training_horizon": 160
+    },
+    "dagger_rounds": 3,
+    "fine_tune_epochs_per_round": 4,
+    "dagger_loss_by_round": [
+      [
+        0.019416579394601285,
+        0.016502023703651503,
+        0.015110160660697147,
+        0.014253515168093145
+      ],
+      [
+        0.014607862918637693,
+        0.013531837981039038,
+        0.012633570314695438,
+        0.011570621863938868
+      ],
+      [
+        0.00998322744271718,
+        0.007655676461581606,
+        0.006262247217819095,
+        0.005718124957638793
+      ]
+    ],
+    "aggregated_training_episodes": 2048,
+    "training_horizon": 160
+  },
+  "test_grid": {
+    "hazards": [
+      0.002,
+      0.02,
+      0.08
+    ],
+    "noise_profiles": {
+      "HIGH_REVERSAL_NOISE": [
+        0.2,
+        1.2
+      ],
+      "EQUAL_NOISE": [
+        0.7,
+        0.7
+      ],
+      "REVERSED_NOISE": [
+        1.2,
+        0.2
+      ]
+    },
+    "episodes_per_cell": 300
+  },
+  "independent_unit": "episode",
+  "outputs": [
+    "episode_metrics.csv",
+    "condition_summary.json"
+  ],
+  "warning": "post-result baseline repair; no confirmatory interpretation"
+}
