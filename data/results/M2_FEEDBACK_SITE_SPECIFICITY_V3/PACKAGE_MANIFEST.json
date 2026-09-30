@@ -1,0 +1,40 @@
+{
+  "package": "M2_FEEDBACK_SITE_SPECIFICITY_V3",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "0d4f67220785cfd1316ca6f4da1a883f82d1103c7cd7cf69434a6c9dcad4c464",
+      "published_sha256": "462042f815f98bcfc3cd2e9861ce3ff2a1f72f389fb98ace0cbdbba150fc8ff2",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "run_experiment_executed.py",
+      "source_sha256": "050b574f328e696271fff185254e2576f5ca0b6738de79e2585c05ffd5255bbe",
+      "published_sha256": "d554efcf34189a836564a568449ec250120880e0cb1864d9356b3a13693154f5",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "FAILURE_LOG.md",
+    "FEISHU_ENTRY.md",
+    "RESULTS.md",
+    "SHA256SUMS.txt"
+  ],
+  "source_results_files": [
+    "POSTRUN_VERIFICATION.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "development_calibration.csv",
+    "feedback_site_noise_robustness.png",
+    "heldout_simulation_metrics.csv",
+    "run_manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
