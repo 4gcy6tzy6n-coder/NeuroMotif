@@ -1,0 +1,43 @@
+{
+  "package": "M2_CROSS_TASK_STATE_FEEDBACK_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "plot_results.py",
+      "source_sha256": "20703b85c8e44961ab7eae815962bf5e1175352299d3ea26cb353ef698404ea1",
+      "published_sha256": "74b7efeb8634fcf4a4c56044fcb3979d27bc5bae2766b7b9e25fd63e19d6febb",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "6cece04266e613d055b38df4f3acff4b382b58e08ec290b99b745cf01ad53522",
+      "published_sha256": "8065a113e6ae171428ac10432453a8a2e1f7b3cbe15cbc473b82de29149c831f",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "FAILURE_LOG.md",
+    "FEISHU_ENTRY.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "POSTRUN_VERIFICATION.json",
+    "SHA256SUMS.txt",
+    "episode_metrics.csv",
+    "figures/m2_cross_task_primary_contrast.collision-audit.json",
+    "figures/m2_cross_task_primary_contrast.pdf",
+    "figures/m2_cross_task_primary_contrast.png",
+    "figures/m2_cross_task_primary_contrast.svg",
+    "figures/m2_cross_task_primary_contrast.tiff",
+    "learned_parameters.csv",
+    "run_manifest.json",
+    "summary.json",
+    "training_curves.csv"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

@@ -1,0 +1,110 @@
+{
+  "package": "M2_CROSS_TASK_STATE_FEEDBACK_V1",
+  "files": [
+    {
+      "path": "model/M2_CROSS_TASK_STATE_FEEDBACK_V1/plot_results.py",
+      "bytes": 2743,
+      "sha256": "74b7efeb8634fcf4a4c56044fcb3979d27bc5bae2766b7b9e25fd63e19d6febb"
+    },
+    {
+      "path": "model/M2_CROSS_TASK_STATE_FEEDBACK_V1/run_experiment.py",
+      "bytes": 14547,
+      "sha256": "8065a113e6ae171428ac10432453a8a2e1f7b3cbe15cbc473b82de29149c831f"
+    },
+    {
+      "path": "model/M2_CROSS_TASK_STATE_FEEDBACK_V1/verify_results.py",
+      "bytes": 4553,
+      "sha256": "09a5bad4e4b0ac395b4521c2795b59faafca732622e51cba0cf387b079cfc45b"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/PACKAGE_MANIFEST.json",
+      "bytes": 1662,
+      "sha256": "a8dd4e078060f6664cb21b493d210a647f71325e79da7d0bb8cf55dd60c67896"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/POSTRUN_VERIFICATION.json",
+      "bytes": 549,
+      "sha256": "895f45b71823d7bf956357f9baebdcfd08502b7202b5a4e3bba303df29cf64ee"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/SHA256SUMS.txt",
+      "bytes": 2416,
+      "sha256": "9dad0eb5561e587caac44c4e3cbfba73642a687d01a7f846d8f44c2cd7eed153"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/episode_metrics.csv",
+      "bytes": 13156669,
+      "sha256": "2a84aa976b14617a07007778bc1ea54b40850df7797c033cdd4f790e6df25c12"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/figures/m2_cross_task_primary_contrast.collision-audit.json",
+      "bytes": 554,
+      "sha256": "ae65d97d92a58f5740d0b89d8e54470f2c49d6b0ad67810d9b05ac46a10ce797"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/figures/m2_cross_task_primary_contrast.pdf",
+      "bytes": 36110,
+      "sha256": "e7e09272eeaa6de3fbe75b9dc793c439c1b71ecb5593cf626658bafe9fc005cf"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/figures/m2_cross_task_primary_contrast.png",
+      "bytes": 162986,
+      "sha256": "98f76cc914df2f0ef3258bbbe9103c0ca4d06cdc8856eb5832647d2eacf588a7"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/figures/m2_cross_task_primary_contrast.svg",
+      "bytes": 11280,
+      "sha256": "cc8f249fd86dd869e5630eb31d87d5ea667309af1d51e1ab0cd90e17fa05f4d5"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/figures/m2_cross_task_primary_contrast.tiff",
+      "bytes": 26897822,
+      "sha256": "b64c8470cdc783d5c76487b30043f8a3298cd847175f3e9c723c53c8b873b8b8"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/learned_parameters.csv",
+      "bytes": 6505,
+      "sha256": "f500ea6a4535a76c780ae6be8e9d000af79bf353b9506ab7560e6fee614f0d79"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/run_manifest.json",
+      "bytes": 2144,
+      "sha256": "145f22290a01535ae518a254a3d66960a5e89eb921fbe9b5d50f4bb9b9210f68"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/summary.json",
+      "bytes": 4950,
+      "sha256": "977585ed6946b9a7f5246dc5bec9afa6d02cf732c74eb4b9af3318620ddac38d"
+    },
+    {
+      "path": "data/results/M2_CROSS_TASK_STATE_FEEDBACK_V1/training_curves.csv",
+      "bytes": 7370,
+      "sha256": "12bb1215a78deacb3ef62334c9ad878918d7b416bf1ca4c9604fc037165487f6"
+    },
+    {
+      "path": "summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/CONTRACT.md",
+      "bytes": 4919,
+      "sha256": "d56866f6c7f5e34b198f697744adae6903ade4f52c1f0c63d4b0f49e1f1a8dfa"
+    },
+    {
+      "path": "summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/FAILURE_LOG.md",
+      "bytes": 1515,
+      "sha256": "472f1ca620a07fa96faf17bb92edf4809ddc41f6cd81ef86cc2bb2c8d37da231"
+    },
+    {
+      "path": "summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/FEISHU_ENTRY.md",
+      "bytes": 1556,
+      "sha256": "bd95ee3a32d35358537c0fc6e82cab276093a97eeafd3ed2abe837d487e73931"
+    },
+    {
+      "path": "summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/README.md",
+      "bytes": 1040,
+      "sha256": "9d2765030249936379a8d76c4ee46275e5d5c46c683582462fb1971a75b5eb4d"
+    },
+    {
+      "path": "summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/RESULTS.md",
+      "bytes": 2555,
+      "sha256": "e750120bced1cfac5adcf3eb720a2d331f5c6568c650663d74118750be71b98a"
+    }
+  ]
+}
