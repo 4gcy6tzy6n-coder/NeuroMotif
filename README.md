@@ -34,3 +34,13 @@ The active project route uses the published *C. elegans* AFD–AIY/RIM mechanism
 | [Targeted-gain optimization](summery/M2_TARGETED_GAIN_OPTIMIZATION/README.md) | The primary learned-gain comparison was inconclusive, with opposite signs across the two hazards. | Optimization line stopped; no further tuning is justified by this result. |
 
 **Project-level reading:** these rounds do not establish that the published biological mechanism fails. They show that the current scalar feedback and state-gating implementations do not provide robust, general AI benefit in the tested synthetic settings. The defensible deliverable is a mechanism-transfer boundary analysis, not a claim of validated biological inductive bias. The current local NMI-readiness assessment is `NOT_READY`; see the route decision in the analysis workspace before making any venue claim.
+## Additional completed synthetic studies
+
+These are separate exploratory computations and do not belong to the M2 transfer portfolio. They are included to preserve the full evidence and correction history.
+
+| Round | Result | Boundary |
+|---|---|---|
+| [M6 — State-gated inference](summery/M6_STATE_GATED_INFERENCE/README.md) | State-gated gain beat a single global gain descriptively but lost to a same-size innovation-adaptive filter in all primary hazard cells. | Two invalid metric attempts are retained and marked; only corrected v2 is authoritative. Synthetic only. |
+| [M7 — Temporal-correlation boundary](summery/M7_TEMPORAL_CORRELATION_BOUNDARY/README.md) | Trace benefit varies with temporal correlation and delay; exact replay beat eligibility in all 48 tested cells. | The pooled accuracy/MSE interaction is invalid and excluded; objective-stratified analysis is authoritative. Synthetic only. |
+
+The prospective biology route is currently deferred because access and assay capability have not been established. The published-worm-plus-synthetic route is a narrower reporting path, not completion of the original independent-validation objective.
