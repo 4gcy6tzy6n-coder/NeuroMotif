@@ -1,0 +1,318 @@
+{
+  "experiment": "M2_TARGETED_GAIN_OPTIMIZATION",
+  "seed": 20260930,
+  "training_seeds": [
+    {
+      "train_seed": 0,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.163814544677734,
+          "gain_reversal": 1.2943342924118042,
+          "action_feedback": 0.563140332698822
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4001946866512298,
+        "final_20_update_mean_training_mae": 1.3479579150676728,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.852187395095825,
+          "action_feedback": 0.515868604183197,
+          "mode_bias": -0.00019349355716258287
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3780416965484619,
+        "final_20_update_mean_training_mae": 1.3454934895038604,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 1,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.155927658081055,
+          "gain_reversal": 1.262378454208374,
+          "action_feedback": 0.558448314666748
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4512995839118958,
+        "final_20_update_mean_training_mae": 1.340331107378006,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8445963859558105,
+          "action_feedback": 0.5118876695632935,
+          "mode_bias": -0.007504145614802837
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.422899568080902,
+        "final_20_update_mean_training_mae": 1.3392931401729584,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 2,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.162710189819336,
+          "gain_reversal": 1.2809966802597046,
+          "action_feedback": 0.5670675039291382
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4125768423080445,
+        "final_20_update_mean_training_mae": 1.3785701751708985,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8474984169006348,
+          "action_feedback": 0.5186517834663391,
+          "mode_bias": 0.005337939132004976
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3858540594577788,
+        "final_20_update_mean_training_mae": 1.3771256506443024,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 3,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.1735310554504395,
+          "gain_reversal": 1.2789093255996704,
+          "action_feedback": 0.5624354481697083
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4138246417045592,
+        "final_20_update_mean_training_mae": 1.3616166293621064,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8564560413360596,
+          "action_feedback": 0.5139870643615723,
+          "mode_bias": -0.0010267926845699549
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.385741901397705,
+        "final_20_update_mean_training_mae": 1.3605123817920686,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 4,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.173074245452881,
+          "gain_reversal": 1.284916639328003,
+          "action_feedback": 0.5647943615913391
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4547313630580903,
+        "final_20_update_mean_training_mae": 1.3456554114818573,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8602490425109863,
+          "action_feedback": 0.5174835324287415,
+          "mode_bias": 0.0027822935953736305
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4320830643177032,
+        "final_20_update_mean_training_mae": 1.3448182046413422,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 5,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.165862560272217,
+          "gain_reversal": 1.2708773612976074,
+          "action_feedback": 0.5660226345062256
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4757795989513398,
+        "final_20_update_mean_training_mae": 1.379556918144226,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.85495662689209,
+          "action_feedback": 0.5183124542236328,
+          "mode_bias": -0.006805664859712124
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4461583971977234,
+        "final_20_update_mean_training_mae": 1.377312672138214,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 6,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.16292142868042,
+          "gain_reversal": 1.2829945087432861,
+          "action_feedback": 0.56436687707901
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3979034125804901,
+        "final_20_update_mean_training_mae": 1.351424515247345,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.851452112197876,
+          "action_feedback": 0.5161077976226807,
+          "mode_bias": 0.0033639795146882534
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.373735636472702,
+        "final_20_update_mean_training_mae": 1.350849199295044,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 7,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.185293674468994,
+          "gain_reversal": 1.2760618925094604,
+          "action_feedback": 0.5737087726593018
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3975775718688965,
+        "final_20_update_mean_training_mae": 1.3229022204875946,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8702147006988525,
+          "action_feedback": 0.5246135592460632,
+          "mode_bias": -0.0023826323449611664
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3725621223449707,
+        "final_20_update_mean_training_mae": 1.3215431153774262,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 8,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.1723222732543945,
+          "gain_reversal": 1.2636127471923828,
+          "action_feedback": 0.5687403678894043
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4084142208099366,
+        "final_20_update_mean_training_mae": 1.3442714393138886,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.854419708251953,
+          "action_feedback": 0.5178980231285095,
+          "mode_bias": -0.004680152051150799
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.3790699899196626,
+        "final_20_update_mean_training_mae": 1.3432851731777191,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    },
+    {
+      "train_seed": 9,
+      "mode_gain": {
+        "parameters": {
+          "gain_forward": 4.172239303588867,
+          "gain_reversal": 1.2833648920059204,
+          "action_feedback": 0.5682075619697571
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.4001497626304626,
+        "final_20_update_mean_training_mae": 1.3876665234565735,
+        "training_steps": 200,
+        "training_batch_size": 64
+      },
+      "generic_context": {
+        "parameters": {
+          "sensory_gain": 3.8549575805664062,
+          "action_feedback": 0.5221779942512512,
+          "mode_bias": 0.00025300460401922464
+        },
+        "trainable_parameter_count": 3,
+        "initial_20_update_mean_training_mae": 1.376841926574707,
+        "final_20_update_mean_training_mae": 1.386578106880188,
+        "training_steps": 200,
+        "training_batch_size": 64
+      }
+    }
+  ],
+  "training": {
+    "steps": 200,
+    "batch_size": 64,
+    "horizon": 160,
+    "direct_objective": "mean episode MAE",
+    "task_distribution": "hazard log-uniform [0.002,0.08], sigma_F=0.2, sigma_R=1.2"
+  },
+  "test": {
+    "hazards": [
+      0.005,
+      0.04
+    ],
+    "profiles": {
+      "HIGH_REVERSAL_NOISE": [
+        0.2,
+        1.2
+      ],
+      "EQUAL_NOISE": [
+        0.7,
+        0.7
+      ],
+      "REVERSED_NOISE": [
+        1.2,
+        0.2
+      ]
+    },
+    "episodes_per_cell_per_seed": 500,
+    "horizon": 240,
+    "common_random_numbers": true
+  },
+  "independent_unit": "training seed and shared test episode identity as crossed factors",
+  "policies": [
+    "LEARNED_MODE_GAIN",
+    "LEARNED_GENERIC_CONTEXT",
+    "FIXED_GATED",
+    "FIXED_NO_GATE"
+  ],
+  "outputs": [
+    "episode_metrics.csv",
+    "primary_result.json"
+  ],
+  "warning": "post-result targeted engineering study, not confirmation or biological-to-AI transfer"
+}

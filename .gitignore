@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+# Source downloads belong in data/raw and are not published in this experiment mirror.
+data/raw/

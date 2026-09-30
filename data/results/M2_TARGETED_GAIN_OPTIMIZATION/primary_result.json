@@ -1,0 +1,29 @@
+{
+  "status": "POST_RESULT_TARGETED_OPTIMIZATION_COMPLETE",
+  "primary_estimand": "equal-hazard mean paired episode MAE difference (LEARNED_MODE_GAIN - LEARNED_GENERIC_CONTEXT) under high-reversal-noise profile",
+  "primary_mean_difference": 0.0005259219558000588,
+  "crossed_hierarchical_95ci": [
+    -0.0003954816220496209,
+    0.0014451182886385285
+  ],
+  "interpretation": "INCONCLUSIVE_INTERVAL_INCLUDES_ZERO",
+  "per_hazard_primary_cells": [
+    {
+      "hazard": 0.005,
+      "profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_mode_gain_minus_generic": -0.0036369612284385825
+    },
+    {
+      "hazard": 0.04,
+      "profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_mode_gain_minus_generic": 0.0046888051400387
+    }
+  ],
+  "secondary_profiles_are_descriptive_only": [
+    "EQUAL_NOISE",
+    "REVERSED_NOISE"
+  ],
+  "training_seeds": 10,
+  "test_episodes_per_seed_cell": 500,
+  "note": "Outcome-informed engineering exploration; no biological validation or broad task-family claim."
+}

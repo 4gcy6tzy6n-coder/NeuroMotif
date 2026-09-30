@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_RUN",
+  "experiment": "M2_TARGETED_GAIN_OPTIMIZATION",
+  "frozen_files_sha256": {
+    "M2_TARGETED_GAIN_OPTIMIZATION_CONTRACT.md": "3e8ae5438ee071cc570afbeef63982abc7d2cad9f8cdb258cae666ac378e158c",
+    "run_targeted_gain_optimization.py": "9adc32008faf1ac27e0c635b458d52dd15d24ca0e08bb39e8b31de8424ec5f62"
+  },
+  "python": "3.12.13",
+  "numpy": "2.4.4",
+  "torch": "2.11.0",
+  "run_command": "python experiments/m2_feedback/run_targeted_gain_optimization.py",
+  "expected_rows": 120000,
+  "expected_paired_seed_hazard_profile_episode_keys": 30000,
+  "outcome_access_before_freeze": "prior negative M2 outcomes were known; this follow-up is outcome-informed as stated in contract"
+}

@@ -1,0 +1,23 @@
+{
+  "status": "VERIFIED",
+  "rows": 120000,
+  "paired_keys": 30000,
+  "all_pairs_have_four_policies": true,
+  "frozen_input_hashes_match": true,
+  "primary_mean_recomputed": 0.0005259219558000588,
+  "primary_ci_recomputed": [
+    -0.0003954816220496209,
+    0.0014451182886385285
+  ],
+  "primary_ci_spans_zero": true,
+  "descriptive_cell_differences": {
+    "HIGH_REVERSAL_NOISE_hazard_0.005": -0.0036369612284385825,
+    "HIGH_REVERSAL_NOISE_hazard_0.04": 0.0046888051400387,
+    "EQUAL_NOISE_hazard_0.005": 0.009261508563006416,
+    "EQUAL_NOISE_hazard_0.04": 0.009127829172095384,
+    "REVERSED_NOISE_hazard_0.005": 0.019886547223235213,
+    "REVERSED_NOISE_hazard_0.04": 0.012853436762347539
+  },
+  "episode_metrics_sha256": "3e50334e461099569f2d667212af4477f21d91fe3161218358e7b24bb27d32f4",
+  "warning": "post-result outcome-informed engineering exploration; descriptive stress conditions do not modify the primary conclusion"
+}
