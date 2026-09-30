@@ -1,0 +1,33 @@
+{
+  "package": "M2_FORWARD_STATE_SENSORY_GATE_V2",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "finalize_results.py",
+      "source_sha256": "c137bc61e35fb0f35d8f74f057c02b25e21976d4f0ac0b479447993e664d5270",
+      "published_sha256": "ec18826da64e35b6088246bf19627822b1eea57a5cb77c9eaaf1f2721787dba3",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "5852a84839ace95a12ba45b92d7274357ea06e9f3f89d5c4c961e15b951c7a8d",
+      "published_sha256": "0cc92ee3270bcdbcc6f8e14f3055685d7fd65251010f0f05356d0a6298b1a033",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "episode_metrics.csv",
+    "learned_parameters.csv",
+    "manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
