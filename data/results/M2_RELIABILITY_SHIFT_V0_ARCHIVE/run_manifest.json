@@ -1,7 +1,6 @@
 {
   "status": "POST_RESULT_FIXED_PARAMETER_SENSITIVITY",
   "master_seed": 20261002,
-  "parameter_source": "/Users/yyl/Desktop/workshop/NMI/nmi_feedback_routing/experiments/m2_feedback/state_gated_experiment/run_manifest.json",
   "selected_parameters_reused_without_retuning": {
     "gated": [
       0.25,
@@ -32,5 +31,6 @@
     1.2
   ],
   "independent_unit": "episode",
-  "warning": "post-result sensitivity analysis; do not describe as a preregistered confirmatory test"
+  "warning": "post-result sensitivity analysis; do not describe as a preregistered confirmatory test",
+  "parameter_source": "data/results/M2_STATE_GATED_GAIN_V1/run_manifest.json"
 }

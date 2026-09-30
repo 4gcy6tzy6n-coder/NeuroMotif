@@ -1,0 +1,13 @@
+{
+  "package": "M2_RELIABILITY_SHIFT_V0_ARCHIVE",
+  "status": "OUTCOMES_PRESERVED_PATH_NORMALIZED",
+  "normalization": {
+    "file": "run_manifest.json",
+    "field": "parameter_source",
+    "source_sha256": "53c049047d4f19f3569817b6803026f7e5e491a0c8c107b431fbbc51da4bfdf5",
+    "published_sha256": "b214745302dddfb5688b8e37c147eef26d561696c4295a928bf33af4be5fcd5a",
+    "new_value": "data/results/M2_STATE_GATED_GAIN_V1/run_manifest.json",
+    "semantic_json_equal_after_removing_path_field": true
+  },
+  "experiment_rerun_for_publication": false
+}

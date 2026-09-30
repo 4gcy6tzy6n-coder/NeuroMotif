@@ -1,0 +1,60 @@
+{
+  "package": "M2_RELIABILITY_SHIFT_V0_ARCHIVE",
+  "files": [
+    {
+      "path": "model/M2_RELIABILITY_SHIFT_V0_ARCHIVE/ARCHIVAL_NOTE.md",
+      "bytes": 398,
+      "sha256": "a70047238018f1ed0cb7db7c3698d80ea14b1327e4efac61f9de6caed8ae3488"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V0_ARCHIVE/ARCHIVE_STATUS.md",
+      "bytes": 281,
+      "sha256": "e28e63a889d9b309d5873ed53aba031120f0e70ac0e352952b460a05744abda3"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V0_ARCHIVE/PACKAGE_MANIFEST.json",
+      "bytes": 551,
+      "sha256": "0090fbbb04c5bbbabc5a72290fe051c1a1dca800389b150d6328f0174bd9a3bc"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V0_ARCHIVE/condition_summary.json",
+      "bytes": 64131,
+      "sha256": "ae1a183d2ae295ac75e34ad7b4b642960e7fffd8ed5b0167e7266c96916bc421"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V0_ARCHIVE/episode_metrics.csv",
+      "bytes": 2053252,
+      "sha256": "cca74c7d99d4c81990f95ad1681b05762858c1b64189d9677ecc5c17012eb4ce"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V0_ARCHIVE/run_manifest.json",
+      "bytes": 783,
+      "sha256": "b214745302dddfb5688b8e37c147eef26d561696c4295a928bf33af4be5fcd5a"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V0_ARCHIVE/EXPERIMENT2_CONTROL_CORRECTION.md",
+      "bytes": 1252,
+      "sha256": "4c691db8c45ba985932581f7cd93e941976a42fa1da26a82b792c0992bd95ed0"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V0_ARCHIVE/PROVENANCE_NORMALIZATION.md",
+      "bytes": 585,
+      "sha256": "952fdbb78491a979eee78ca1e44465c04d340b72c071ef151ee909de3935525d"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V0_ARCHIVE/README.md",
+      "bytes": 690,
+      "sha256": "3789088fed9155551545d01fe21d5a71a9e83b4a7ce884f13baec093cc71f3ef"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V0_ARCHIVE/RESULTS.md",
+      "bytes": 797,
+      "sha256": "fe467dc5b0a54756de8c76c091de50f8a2d37752c074cedf34148bb87b47032d"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V0_ARCHIVE/SHA256SUMS.txt",
+      "bytes": 1017,
+      "sha256": "b3b7dad004532e36a4d24b09f2fa7d8cd37f01ffd4526295b3b3f311acc62fb4"
+    }
+  ]
+}
