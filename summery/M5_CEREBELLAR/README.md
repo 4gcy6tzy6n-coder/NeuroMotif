@@ -18,6 +18,10 @@ In v3, an eligibility trace improved accuracy over a no-trace online update by a
 - v3 corrected both issues using unit-normalized inputs and only the current local trace norm. Because these corrections followed inspection of earlier outcomes, v3 remains post-result exploratory.
 - Replay and batch comparators have different memory/data access, so the comparison does not establish broad algorithmic superiority.
 
+## Cross-input-generator follow-up
+
+A separate outcome-informed follow-up kept the v3 learning rate and trace decay fixed and evaluated 30 new tasks in each of three input generators (IID Gaussian, AR(1) Gaussian, and sparse-sign inputs). The equal-generator, four-delay mean contrast (eligibility trace minus no-trace) was `+0.2284` accuracy (95% hierarchical seed-bootstrap interval `[+0.2213,+0.2357]`); all 30 seed-level four-delay averages were positive within each generator. The result is conditional on three input-stream distributions sharing the same classification objective. Under AR(1) inputs, no-trace was better at delays 1 and 4; the trace helped at delays 16 and 64. Exact replay still outperformed the trace across all generator-delay cells. This is input-distribution robustness, not generalization across unrelated task families or biological validation. See [`../M5_TASK_GENERATOR_GENERALIZATION/RESULTS.md`](../M5_TASK_GENERATOR_GENERALIZATION/RESULTS.md).
+
 ## Files
 
 - Code: [`model/M5_CEREBELLAR/run_delayed_teaching.py`](../../../model/M5_CEREBELLAR/run_delayed_teaching.py)
