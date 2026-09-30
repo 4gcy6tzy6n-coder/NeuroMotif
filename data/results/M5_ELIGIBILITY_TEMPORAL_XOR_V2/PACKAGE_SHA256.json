@@ -1,0 +1,70 @@
+{
+  "package": "M5_ELIGIBILITY_TEMPORAL_XOR_V2",
+  "files": [
+    {
+      "path": "model/M5_ELIGIBILITY_TEMPORAL_XOR_V2/run_experiment.py",
+      "bytes": 7174,
+      "sha256": "aee8730b2787a807664a5e11832d4824f8d7303e690ac91835fe7c07bebcbfd0"
+    },
+    {
+      "path": "model/M5_ELIGIBILITY_TEMPORAL_XOR_V2/verify_results.py",
+      "bytes": 2857,
+      "sha256": "6e86bb20e35a2a8e935be0bdd1dd543d3f2e34e35f1950d09fbd58928104f7a9"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/PACKAGE_MANIFEST.json",
+      "bytes": 1338,
+      "sha256": "79e78f95f630cb723fc831a862dddffdf70cb9450dfba241c7c2e0bf017d653c"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/PREFLIGHT.json",
+      "bytes": 857,
+      "sha256": "ab6c7f4bf4d8bb327ea6b5a08336bd215877a29b37e1d0db473657a3448a3424"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/manifest.json",
+      "bytes": 882,
+      "sha256": "138d8fddbeef3eae78c6f199c282cc20f3260c4de9e01a9d99dc621378fc3292"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/paired_seed_contrasts.csv",
+      "bytes": 1659,
+      "sha256": "387ca3fc9f7a5540719f8a1d4b575f851539ef8c9231cd3b24e6f9e0fad518dc"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/summary.json",
+      "bytes": 971,
+      "sha256": "8dd3a45f7a21378b766d3045607050fa9263d30adf6f6f0a5bd644916d8c1d48"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/task_seed_results.csv",
+      "bytes": 4725,
+      "sha256": "56cda422ef003a28d7510fbcd548b1469ee46fdff442cdd179d7ff248d0631c3"
+    },
+    {
+      "path": "data/results/M5_ELIGIBILITY_TEMPORAL_XOR_V2/verification.json",
+      "bytes": 308,
+      "sha256": "678f4cbc94e37b7687be523fe80e95d923e5e90287fb5c897d057d36259fac31"
+    },
+    {
+      "path": "summery/M5_ELIGIBILITY_TEMPORAL_XOR_V2/CONTRACT.md",
+      "bytes": 3181,
+      "sha256": "6f63381ad7fee127a85c1b758186d5f53875c374bfc5377681e47cae41afef0a"
+    },
+    {
+      "path": "summery/M5_ELIGIBILITY_TEMPORAL_XOR_V2/FAILURE_LOG.md",
+      "bytes": 1714,
+      "sha256": "abdf02e5224344cf26b92255bcb4a4e1e8a9fbeb8abc081c26e71b2e098ab024"
+    },
+    {
+      "path": "summery/M5_ELIGIBILITY_TEMPORAL_XOR_V2/README.md",
+      "bytes": 1036,
+      "sha256": "8f696e9272809b94a95561bd7ee0491ddac8497a61c9e55dfc6a01802e46d2ff"
+    },
+    {
+      "path": "summery/M5_ELIGIBILITY_TEMPORAL_XOR_V2/RESULTS.md",
+      "bytes": 2020,
+      "sha256": "5e345fc60a95912f5d4f2c5f23f4c594e53556aa81e2b804b3d69a863016ecef"
+    }
+  ]
+}

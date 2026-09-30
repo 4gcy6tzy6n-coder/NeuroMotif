@@ -1,0 +1,36 @@
+{
+  "package": "M5_ELIGIBILITY_TEMPORAL_XOR_V2",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "cfff6dae25fd6380d3e8945a8c2ad87df268c9cda7b17e6144a325991ee138ec",
+      "published_sha256": "aee8730b2787a807664a5e11832d4824f8d7303e690ac91835fe7c07bebcbfd0",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "verify_results.py",
+      "source_sha256": "a6244510c297e6550554ec78ed08212cb44c11b1594e40b54569e4bdee65063b",
+      "published_sha256": "6e86bb20e35a2a8e935be0bdd1dd543d3f2e34e35f1950d09fbd58928104f7a9",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "FAILURE_LOG.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "PREFLIGHT.json",
+    "manifest.json",
+    "paired_seed_contrasts.csv",
+    "summary.json",
+    "task_seed_results.csv",
+    "verification.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
