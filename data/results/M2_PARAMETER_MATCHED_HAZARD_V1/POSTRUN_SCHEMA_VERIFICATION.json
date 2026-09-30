@@ -1,0 +1,21 @@
+{
+  "status": "SCHEMA_PRIMARY_ESTIMATE_AND_CROSSED_BOOTSTRAP_VERIFIED",
+  "episode_rows": 90000,
+  "paired_keys": 18000,
+  "policies_per_key": 5,
+  "primary_mean_recomputed": 0.028944408586269812,
+  "primary_mean_matches_run_summary": true,
+  "shared_test_episode_streams_resampled_as_crossed_factor": true,
+  "primary_corrected_interval": [
+    0.026048243813666442,
+    0.0318802535222355
+  ],
+  "sha256": {
+    "episode_metrics.csv": "bf0a3cede9cfba47248ba6578cd5963c43db2dbdb09b8abfb4b66557200d22ef",
+    "primary_result.json": "1115d98528e7739ff375b50c39164afbb7186e6a812153fbb3bddbdf3c7782ed",
+    "run_manifest.json": "897502eac3f09945117950b0011cacab64d14b75b2069597418b358d88dc7500",
+    "BOOTSTRAP_CORRECTION.json": "1c256886b4bdb3e3102f2b5b1fbeb5bc8edb8f9deb93649641b7c4ff0a8984dc",
+    "BOOTSTRAP_CORRECTION.md": "150f17c87117eea900be00dcd39124355b105048f7f338a2317ad292da82a511",
+    "RESULTS.md": "49883e71c6008ed45c726fea254f4132b4398d484d63ddffa87b24cd6de6cdb8"
+  }
+}

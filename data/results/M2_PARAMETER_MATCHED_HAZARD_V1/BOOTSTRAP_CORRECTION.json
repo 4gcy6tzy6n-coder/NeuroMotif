@@ -1,0 +1,78 @@
+{
+  "status": "POST_RUN_CROSSED_BOOTSTRAP_CORRECTION",
+  "reason": "The original bootstrap independently resampled episode indices per train seed, but all seeds shared the same exogenous test episode streams. This correction resamples training seeds and shared episode IDs as separate crossed factors.",
+  "point_estimate": 0.028944408586269812,
+  "point_estimate_unchanged": true,
+  "initial_unclustered_episode_bootstrap_95ci": [
+    0.027708945683354053,
+    0.03021035148407733
+  ],
+  "corrected_crossed_hierarchical_95ci": [
+    0.026048243813666442,
+    0.0318802535222355
+  ],
+  "interpretation": "GATED_HIGHER_ERROR",
+  "cell_results": [
+    {
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_difference": 0.007692765634388945,
+      "crossed_hierarchical_95ci": [
+        0.0010344362522484002,
+        0.01474534713529229
+      ]
+    },
+    {
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_difference": 0.02685065194572511,
+      "crossed_hierarchical_95ci": [
+        0.020344990731807924,
+        0.0338282144741197
+      ]
+    },
+    {
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_difference": 0.04156122304780578,
+      "crossed_hierarchical_95ci": [
+        0.03535734057306824,
+        0.048270005965722014
+      ]
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_difference": 0.02643870190450826,
+      "crossed_hierarchical_95ci": [
+        0.019582490915547396,
+        0.03347644490425198
+      ]
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_difference": 0.03363523120287731,
+      "crossed_hierarchical_95ci": [
+        0.02633959915558231,
+        0.04138304250219958
+      ]
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_difference": 0.03748787778231345,
+      "crossed_hierarchical_95ci": [
+        0.031055500187977786,
+        0.04405702063011869
+      ]
+    }
+  ],
+  "bootstrap_replicates": 20000,
+  "shared_test_episode_streams_across_training_seeds": true,
+  "source_hashes": {
+    "episode_metrics.csv": "bf0a3cede9cfba47248ba6578cd5963c43db2dbdb09b8abfb4b66557200d22ef",
+    "initial_primary_result.json": "1115d98528e7739ff375b50c39164afbb7186e6a812153fbb3bddbdf3c7782ed",
+    "run_manifest.json": "897502eac3f09945117950b0011cacab64d14b75b2069597418b358d88dc7500"
+  }
+}

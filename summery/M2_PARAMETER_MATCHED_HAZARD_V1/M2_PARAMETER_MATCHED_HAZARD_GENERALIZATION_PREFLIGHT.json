@@ -1,0 +1,20 @@
+{
+  "experiment": "M2_PARAMETER_MATCHED_HAZARD_GENERALIZATION",
+  "status": "FROZEN_BEFORE_EXECUTION",
+  "contract": "experiments/m2_feedback/M2_PARAMETER_MATCHED_HAZARD_GENERALIZATION_CONTRACT.md",
+  "contract_sha256": "7e487b2dd7960f20aaf8cc0650a60668cc618f0cc44abcea727a29b97c67bae3",
+  "implementation": "experiments/m2_feedback/run_parameter_matched_hazard_generalization.py",
+  "implementation_sha256": "ccdece9d70a812092be4545aed40c413d0aafdf7167d12a3bab7f3897674777e",
+  "planned_primary": "Equal-cell, equal-training-seed mean paired episode MAE difference: learned gated minus learned no-gate",
+  "planned_training_seeds": 10,
+  "planned_training_episodes_per_round": 1024,
+  "planned_rounds": 4,
+  "planned_test_hazards": [0.005, 0.04],
+  "planned_noise_profiles": {
+    "HIGH_REVERSAL_NOISE": [0.2, 1.2],
+    "EQUAL_NOISE": [0.7, 0.7],
+    "REVERSED_NOISE": [1.2, 0.2]
+  },
+  "planned_test_episodes_per_seed_cell": 300,
+  "classification": "POST_RESULT_EXPLORATORY"
+}

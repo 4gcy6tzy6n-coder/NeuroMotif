@@ -1,0 +1,513 @@
+{
+  "status": "POST_RESULT_EXPLORATORY_PARAMETER_MATCHED_GENERALIZATION_COMPLETE",
+  "primary_estimand": "equal-cell and equal-training-seed average paired episode MAE difference (LEARNED_GATED - LEARNED_NO_GATE)",
+  "primary_mean_difference": 0.028944408586269812,
+  "primary_hierarchical_bootstrap_95ci": [
+    0.027708945683354053,
+    0.03021035148407733
+  ],
+  "primary_interpretation": "GATED_HIGHER_ERROR",
+  "episodes_per_seed_per_cell": 300,
+  "training_seeds": 10,
+  "cell_summaries": [
+    {
+      "train_seed": 0,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.007769147244694798,
+      "episodes": 300
+    },
+    {
+      "train_seed": 0,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02709393195141093,
+      "episodes": 300
+    },
+    {
+      "train_seed": 0,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.04174311909160744,
+      "episodes": 300
+    },
+    {
+      "train_seed": 0,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02675941359521305,
+      "episodes": 300
+    },
+    {
+      "train_seed": 0,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03399589543601397,
+      "episodes": 300
+    },
+    {
+      "train_seed": 0,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03781577481088565,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.009567135448193778,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02825212787398696,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.042674153635314876,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.028218862429122506,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.035130162089524325,
+      "episodes": 300
+    },
+    {
+      "train_seed": 1,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03880233215941108,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.00782459226339229,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02698931237698483,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.041680085201686055,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.026509078214734822,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03371071117079886,
+      "episodes": 300
+    },
+    {
+      "train_seed": 2,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03757819042214911,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.006876667357837946,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02614933405728931,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.04101420232287136,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.025514959619824112,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03281394371495644,
+      "episodes": 300
+    },
+    {
+      "train_seed": 3,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.036769707925824555,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.0071792115506416065,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.026391183453942015,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.0412105793527142,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02576751665185514,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03303195630792347,
+      "episodes": 300
+    },
+    {
+      "train_seed": 4,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03697169108505083,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.008727532796784952,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02745330327306629,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.04203918359922558,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02731593912128075,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03429213914848404,
+      "episodes": 300
+    },
+    {
+      "train_seed": 5,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.038035139623673664,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.006260737422007034,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02574881972341482,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.040700065917345554,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.025191610945035064,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.032594330196366525,
+      "episodes": 300
+    },
+    {
+      "train_seed": 6,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.036554798447414605,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.004607188552474383,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02448939961557217,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.039651575115465014,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02349973920071062,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.03112592083460174,
+      "episodes": 300
+    },
+    {
+      "train_seed": 7,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.035239170708491904,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.006711074802436704,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.026012668092115238,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.04087223379093403,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02552379941133675,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.032808323009321794,
+      "episodes": 300
+    },
+    {
+      "train_seed": 8,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.036731078931913325,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.011404368905425942,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.02992643903946853,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.0440270324508937,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.0300860998559698,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.036848930120781886,
+      "episodes": 300
+    },
+    {
+      "train_seed": 9,
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_mae_difference_gated_minus_no_gate": 0.04038089370831978,
+      "episodes": 300
+    }
+  ],
+  "notes": [
+    "All experiments are synthetic and outcome-informed by prior M2 results.",
+    "Both learned controllers have exactly two trainable scalar parameters and use matched DAgger training streams, episode counts, and optimizer settings.",
+    "Test hazards were not used as fixed training conditions; noise profile values were previously seen in earlier M2 experiments.",
+    "The privileged teacher is not a fair deployable baseline.",
+    "No biological measurements or outcomes were used."
+  ],
+  "files": [
+    "episode_metrics.csv",
+    "run_manifest.json"
+  ],
+  "cell_descriptive_contrasts": [
+    {
+      "hazard": 0.005,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_difference": 0.007692765634388945,
+      "hierarchical_bootstrap_95ci": [
+        0.005315437721910112,
+        0.010153916753517369
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    },
+    {
+      "hazard": 0.005,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_difference": 0.02685065194572511,
+      "hierarchical_bootstrap_95ci": [
+        0.024592219527699487,
+        0.02913480929074555
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    },
+    {
+      "hazard": 0.005,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_difference": 0.04156122304780578,
+      "hierarchical_bootstrap_95ci": [
+        0.03945996263450931,
+        0.04371755723189579
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "HIGH_REVERSAL_NOISE",
+      "mean_paired_difference": 0.02643870190450826,
+      "hierarchical_bootstrap_95ci": [
+        0.02403931110928629,
+        0.02885048118010528
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "EQUAL_NOISE",
+      "mean_paired_difference": 0.03363523120287731,
+      "hierarchical_bootstrap_95ci": [
+        0.031124808946293905,
+        0.036186240432110356
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    },
+    {
+      "hazard": 0.04,
+      "noise_profile": "REVERSED_NOISE",
+      "mean_paired_difference": 0.03748787778231345,
+      "hierarchical_bootstrap_95ci": [
+        0.03525924776982739,
+        0.03970289048345649
+      ],
+      "episodes_per_training_seed": 300,
+      "training_seeds": 10
+    }
+  ]
+}

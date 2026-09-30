@@ -1,0 +1,352 @@
+{
+  "experiment": "M2_PARAMETER_MATCHED_HAZARD_GENERALIZATION",
+  "status": "POST_RESULT_EXPLORATORY_PARAMETER_MATCHED_GENERALIZATION_COMPLETE",
+  "seed": 20260930,
+  "training": {
+    "independent_training_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "episodes_per_round": 1024,
+    "horizon": 160,
+    "dagger_rounds": 4,
+    "fit_epochs_per_round": 3,
+    "batch_size": 8192,
+    "task_distribution": "hazard log-uniform [0.002,0.08], sigma_F and sigma_R independently uniform [0.2,1.2] per episode",
+    "controllers": [
+      {
+        "train_seed": 0,
+        "learned_gated": {
+          "weights": [
+            1.471886396408081,
+            0.5523113012313843
+          ],
+          "round_training_mse": [
+            0.08435127586126327,
+            0.07136339675635099,
+            0.06961500210066636,
+            0.06871681613847613
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.540636658668518,
+            0.495130330324173
+          ],
+          "round_training_mse": [
+            0.06355462484061718,
+            0.05152971902862191,
+            0.050453784254690014,
+            0.049859254993498324
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 1,
+        "learned_gated": {
+          "weights": [
+            1.4536631107330322,
+            0.5337761640548706
+          ],
+          "round_training_mse": [
+            0.08604758605360985,
+            0.07221029885113239,
+            0.07044633664190769,
+            0.06918614087626337
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.527736783027649,
+            0.4794701635837555
+          ],
+          "round_training_mse": [
+            0.06626969315111637,
+            0.052843038272112605,
+            0.051791232513884705,
+            0.05079825683496893
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 2,
+        "learned_gated": {
+          "weights": [
+            1.4841524362564087,
+            0.5416431427001953
+          ],
+          "round_training_mse": [
+            0.08670393824577331,
+            0.07238766998052597,
+            0.07073629883428414,
+            0.06930668540298938
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.5462028980255127,
+            0.4869392216205597
+          ],
+          "round_training_mse": [
+            0.06672770660370589,
+            0.05257226414978504,
+            0.051537413895130155,
+            0.05046319039538503
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 3,
+        "learned_gated": {
+          "weights": [
+            1.4892722368240356,
+            0.5402545928955078
+          ],
+          "round_training_mse": [
+            0.08499625697731972,
+            0.07207869738340378,
+            0.07043094399074713,
+            0.0691464333795011
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.5472750663757324,
+            0.48313814401626587
+          ],
+          "round_training_mse": [
+            0.0651268882676959,
+            0.05277518332004547,
+            0.05147225211064021,
+            0.05027764951810241
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 4,
+        "learned_gated": {
+          "weights": [
+            1.4909340143203735,
+            0.538593590259552
+          ],
+          "round_training_mse": [
+            0.08521361015737057,
+            0.07198357153683901,
+            0.07037072144448757,
+            0.06912731565535069
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.548560380935669,
+            0.4828706383705139
+          ],
+          "round_training_mse": [
+            0.06568702068179846,
+            0.052639730460941794,
+            0.051005683342615765,
+            0.05022429367527366
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 5,
+        "learned_gated": {
+          "weights": [
+            1.456440806388855,
+            0.5303665399551392
+          ],
+          "round_training_mse": [
+            0.08546153046190738,
+            0.07260721437633037,
+            0.07124592065811157,
+            0.070288569573313
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.5275013446807861,
+            0.47352829575538635
+          ],
+          "round_training_mse": [
+            0.06675562001764775,
+            0.05374170718714595,
+            0.05241974368691445,
+            0.05144437272101641
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 6,
+        "learned_gated": {
+          "weights": [
+            1.4895265102386475,
+            0.5461844205856323
+          ],
+          "round_training_mse": [
+            0.08581234142184258,
+            0.07184867169708013,
+            0.07041472556690374,
+            0.06877262517809868
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.552860975265503,
+            0.48405593633651733
+          ],
+          "round_training_mse": [
+            0.06513088922947645,
+            0.052273088414222,
+            0.05118690387656291,
+            0.04997294470667839
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 7,
+        "learned_gated": {
+          "weights": [
+            1.482681393623352,
+            0.560255229473114
+          ],
+          "round_training_mse": [
+            0.08695360161364078,
+            0.07132323887199163,
+            0.07008783705532551,
+            0.06956803034991026
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.535915732383728,
+            0.4973076283931732
+          ],
+          "round_training_mse": [
+            0.06588952019810676,
+            0.052155984193086626,
+            0.050764094851911065,
+            0.050155367655679586
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 8,
+        "learned_gated": {
+          "weights": [
+            1.464598298072815,
+            0.5473202466964722
+          ],
+          "round_training_mse": [
+            0.08673525787889957,
+            0.07217245791107416,
+            0.07094667504231135,
+            0.06977298064157367
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.5283743143081665,
+            0.48734211921691895
+          ],
+          "round_training_mse": [
+            0.06650848891586066,
+            0.05279894862323999,
+            0.05143869525442521,
+            0.05064005837775767
+          ],
+          "trainable_parameters": 2
+        }
+      },
+      {
+        "train_seed": 9,
+        "learned_gated": {
+          "weights": [
+            1.4610446691513062,
+            0.5338843464851379
+          ],
+          "round_training_mse": [
+            0.08833751156926155,
+            0.07249494884163141,
+            0.0709167064478,
+            0.0696622971445322
+          ],
+          "trainable_parameters": 2
+        },
+        "learned_no_gate": {
+          "weights": [
+            1.539510726928711,
+            0.48567286133766174
+          ],
+          "round_training_mse": [
+            0.06801798939704895,
+            0.05291531179100275,
+            0.05200701560825109,
+            0.05112016540952027
+          ],
+          "trainable_parameters": 2
+        }
+      }
+    ]
+  },
+  "test": {
+    "episodes_per_cell": 300,
+    "horizon": 240,
+    "hazards": [
+      0.005,
+      0.04
+    ],
+    "noise_profiles": {
+      "HIGH_REVERSAL_NOISE": [
+        0.2,
+        1.2
+      ],
+      "EQUAL_NOISE": [
+        0.7,
+        0.7
+      ],
+      "REVERSED_NOISE": [
+        1.2,
+        0.2
+      ]
+    },
+    "mode_transitions": {
+      "forward_to_reversal": 0.03,
+      "reversal_to_forward": 0.2
+    },
+    "paired_exogenous_streams": true
+  },
+  "independent_unit": "training seed for model-fit variability; episode nested within environment cell for rollout variability",
+  "primary_result_file": "primary_result.json",
+  "episode_metrics_file": "episode_metrics.csv",
+  "warnings": [
+    "post-result exploratory study; no confirmatory interpretation",
+    "synthetic state/noise design is not a verified biological implementation",
+    "does not compare against generic GRU/RNN families or establish broad task-generator generalization"
+  ]
+}
