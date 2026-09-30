@@ -1,0 +1,28 @@
+{
+  "status": "POST_PILOT_EXPLORATORY_BOUNDARY_EXTENSION",
+  "seed": 20260931,
+  "horizon_steps": 400,
+  "episodes_per_condition": 100,
+  "hazards": [
+    0.08,
+    0.16,
+    0.32
+  ],
+  "noise_sd": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "burst_probability": 0.05,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    -0.5
+  ],
+  "independent_unit": "episode",
+  "row_count": 5400,
+  "purpose": "map where action-state feedback ceases to help; not confirmatory"
+}

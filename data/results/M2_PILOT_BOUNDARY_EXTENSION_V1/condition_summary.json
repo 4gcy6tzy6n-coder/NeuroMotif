@@ -1,0 +1,434 @@
+[
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.8771499999999999,
+    "accuracy_sd_across_episodes": 0.03450592834440324,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.8853500000000001,
+    "accuracy_sd_across_episodes": 0.0352194060946031,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.8824999999999998,
+    "accuracy_sd_across_episodes": 0.03655976150928998,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.8691500000000001,
+    "accuracy_sd_across_episodes": 0.03571637006904664,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.8444749999999999,
+    "accuracy_sd_across_episodes": 0.038081012461606244,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 0.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.8042749999999999,
+    "accuracy_sd_across_episodes": 0.029343178013971082,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": 0.0,
+    "accuracy_mean": 0.7837999999999999,
+    "accuracy_sd_across_episodes": 0.027160391541486816,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": 0.25,
+    "accuracy_mean": 0.80435,
+    "accuracy_sd_across_episodes": 0.028875429071104793,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": 0.5,
+    "accuracy_mean": 0.820475,
+    "accuracy_sd_across_episodes": 0.032274264616961555,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": 0.75,
+    "accuracy_mean": 0.8264,
+    "accuracy_sd_across_episodes": 0.03344360547959426,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": 1.0,
+    "accuracy_mean": 0.8222499999999999,
+    "accuracy_sd_across_episodes": 0.03549523371048029,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.0,
+    "alpha": -0.5,
+    "accuracy_mean": 0.7283749999999999,
+    "accuracy_sd_across_episodes": 0.023533704070390772,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.7198499999999999,
+    "accuracy_sd_across_episodes": 0.026540468433063968,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.7353250000000001,
+    "accuracy_sd_across_episodes": 0.02927286941586669,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.7498499999999999,
+    "accuracy_sd_across_episodes": 0.031700181626475185,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.760875,
+    "accuracy_sd_across_episodes": 0.031276251599918654,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.7686499999999998,
+    "accuracy_sd_across_episodes": 0.03458158995240623,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.08,
+    "noise_sd": 1.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.6843,
+    "accuracy_sd_across_episodes": 0.023884401739726415,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.8837,
+    "accuracy_sd_across_episodes": 0.03126031143010368,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.8884499999999999,
+    "accuracy_sd_across_episodes": 0.03231352876759425,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.879475,
+    "accuracy_sd_across_episodes": 0.03282817026010226,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.8553750000000001,
+    "accuracy_sd_across_episodes": 0.03266831899036995,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.8120750000000001,
+    "accuracy_sd_across_episodes": 0.03447304429301658,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 0.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.8152750000000001,
+    "accuracy_sd_across_episodes": 0.02767938508323222,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": 0.0,
+    "accuracy_mean": 0.7833499999999998,
+    "accuracy_sd_across_episodes": 0.028425029872144788,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": 0.25,
+    "accuracy_mean": 0.79895,
+    "accuracy_sd_across_episodes": 0.02965964336340618,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": 0.5,
+    "accuracy_mean": 0.8043,
+    "accuracy_sd_across_episodes": 0.03013664167947669,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": 0.75,
+    "accuracy_mean": 0.8009,
+    "accuracy_sd_across_episodes": 0.03412232895529455,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": 1.0,
+    "accuracy_mean": 0.7877249999999999,
+    "accuracy_sd_across_episodes": 0.03301762423465702,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.0,
+    "alpha": -0.5,
+    "accuracy_mean": 0.7346499999999999,
+    "accuracy_sd_across_episodes": 0.025088278481627976,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.7196750000000001,
+    "accuracy_sd_across_episodes": 0.02521787635545047,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.731125,
+    "accuracy_sd_across_episodes": 0.028573790261338973,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.7382249999999999,
+    "accuracy_sd_across_episodes": 0.029321655302812787,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.7431250000000003,
+    "accuracy_sd_across_episodes": 0.03212266381082102,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.7438999999999999,
+    "accuracy_sd_across_episodes": 0.03357172331085501,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.16,
+    "noise_sd": 1.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.6899749999999999,
+    "accuracy_sd_across_episodes": 0.02218635204741232,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.883,
+    "accuracy_sd_across_episodes": 0.02901149197588202,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.8780249999999999,
+    "accuracy_sd_across_episodes": 0.030069983607268792,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.8556999999999999,
+    "accuracy_sd_across_episodes": 0.029623223213137248,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.811125,
+    "accuracy_sd_across_episodes": 0.029270108774597473,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.749325,
+    "accuracy_sd_across_episodes": 0.03086475671491203,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 0.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.82935,
+    "accuracy_sd_across_episodes": 0.024341374760939973,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": 0.0,
+    "accuracy_mean": 0.7873,
+    "accuracy_sd_across_episodes": 0.027193377833211487,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": 0.25,
+    "accuracy_mean": 0.7917250000000002,
+    "accuracy_sd_across_episodes": 0.028090975491079053,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": 0.5,
+    "accuracy_mean": 0.7845250000000001,
+    "accuracy_sd_across_episodes": 0.03015677679840282,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": 0.75,
+    "accuracy_mean": 0.7666000000000001,
+    "accuracy_sd_across_episodes": 0.030872252259852368,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": 1.0,
+    "accuracy_mean": 0.741225,
+    "accuracy_sd_across_episodes": 0.03235982786721771,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.0,
+    "alpha": -0.5,
+    "accuracy_mean": 0.751375,
+    "accuracy_sd_across_episodes": 0.026032649954170314,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": 0.0,
+    "accuracy_mean": 0.719275,
+    "accuracy_sd_across_episodes": 0.024469871704038845,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": 0.25,
+    "accuracy_mean": 0.72305,
+    "accuracy_sd_across_episodes": 0.025578113671455505,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": 0.5,
+    "accuracy_mean": 0.7216999999999999,
+    "accuracy_sd_across_episodes": 0.02438609887173056,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": 0.75,
+    "accuracy_mean": 0.71575,
+    "accuracy_sd_across_episodes": 0.02777411592025056,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": 1.0,
+    "accuracy_mean": 0.7062500000000002,
+    "accuracy_sd_across_episodes": 0.026420502063604495,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.32,
+    "noise_sd": 1.5,
+    "alpha": -0.5,
+    "accuracy_mean": 0.6973,
+    "accuracy_sd_across_episodes": 0.02509748669456443,
+    "episodes": 100
+  }
+]
