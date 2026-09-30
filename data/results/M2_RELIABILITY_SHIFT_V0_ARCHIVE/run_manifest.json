@@ -1,0 +1,36 @@
+{
+  "status": "POST_RESULT_FIXED_PARAMETER_SENSITIVITY",
+  "master_seed": 20261002,
+  "parameter_source": "/Users/yyl/Desktop/workshop/NMI/nmi_feedback_routing/experiments/m2_feedback/state_gated_experiment/run_manifest.json",
+  "selected_parameters_reused_without_retuning": {
+    "gated": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "additive": [
+      0.25,
+      0.0,
+      0.25
+    ]
+  },
+  "episode_count_per_cell": 300,
+  "horizons": 400,
+  "reliability_relations": {
+    "EQUAL": "sigma_reverse = sigma_forward",
+    "REVERSED": "sigma_reverse = max(0.2, sigma_forward - 0.4)"
+  },
+  "hazards": [
+    0.002,
+    0.01,
+    0.04,
+    0.12
+  ],
+  "sigma_forward_grid": [
+    0.5,
+    0.8,
+    1.2
+  ],
+  "independent_unit": "episode",
+  "warning": "post-result sensitivity analysis; do not describe as a preregistered confirmatory test"
+}
