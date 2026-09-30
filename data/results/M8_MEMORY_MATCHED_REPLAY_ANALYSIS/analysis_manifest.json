@@ -1,0 +1,10 @@
+{
+  "source_sha256": "2e77d085d56724027c122c9cbc9e66d5922ae7a88a66e938fac266e9dcfe7efd",
+  "analysis_code_sha256": "0f63490b6fd210f2b31e1f801f8c7ac964228d704542ddf1bd413f9a86082885",
+  "n_source_rows": 1350,
+  "n_unique_source_keys": 1350,
+  "numpy": "2.4.4",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261001,
+  "status": "post-result exploratory analysis"
+}
