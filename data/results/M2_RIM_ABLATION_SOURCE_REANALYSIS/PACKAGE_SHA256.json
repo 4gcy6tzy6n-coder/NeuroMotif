@@ -1,0 +1,80 @@
+{
+  "package": "M2_RIM_ABLATION_SOURCE_REANALYSIS",
+  "files": [
+    {
+      "path": "model/M2_RIM_ABLATION_SOURCE_REANALYSIS/SHA256SUMS.txt",
+      "bytes": 252,
+      "sha256": "fec53204c59b326dc89b8d7cd5c3156def13312727169ea5e8714600acccf965"
+    },
+    {
+      "path": "model/M2_RIM_ABLATION_SOURCE_REANALYSIS/analyze_fig6c.py",
+      "bytes": 10849,
+      "sha256": "f23c01a49edd0d32057d8aa5947a51c0b0df5c5e635f6b0833a195a6af4cebfc"
+    },
+    {
+      "path": "model/M2_RIM_ABLATION_SOURCE_REANALYSIS/fig6c_reanalysis.ipynb",
+      "bytes": 189112,
+      "sha256": "83fdcae0548d4fb9c9151accba179985596409ef2ebafccf36c5c13855a22b70"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/PACKAGE_MANIFEST.json",
+      "bytes": 1075,
+      "sha256": "f6f1cbc5c127fb40b2de45558931e79af0bb5ac57a315ef8343a9a5e9b4bea0c"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/README.md",
+      "bytes": 1030,
+      "sha256": "3e3ab8d11d199bbc42596b1e5c4eed3320cf4952c4e65036b167b987aeadf587"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/SHA256SUMS.txt",
+      "bytes": 674,
+      "sha256": "0c1c62c1e3d5d4bf07f56b9cd4ff5be5e6b7bad11ce400906ba743bd45a0d6db"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/direction_bin_descriptives.csv",
+      "bytes": 2593,
+      "sha256": "75dc85124be287380e3589bb169fda980cb855318f4246cb3f970616e14b03be"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/figure6c_event_level_descriptive.png",
+      "bytes": 136111,
+      "sha256": "f1dfce5951ea584496370fe90201eb9d6da03119bd64a370e43e3287f7b0ba13"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/run_manifest.json",
+      "bytes": 781,
+      "sha256": "c5dd314b23585291c20de18f45104858985e160091e7f58d744fa6e996a95dda"
+    },
+    {
+      "path": "data/results/M2_RIM_ABLATION_SOURCE_REANALYSIS/summary.json",
+      "bytes": 4206,
+      "sha256": "8f99dbed882bfd9114675e0f68fd2806b374757b79bf82d027887b0b3de086c5"
+    },
+    {
+      "path": "summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/EXPERIMENT_CONTRACT.md",
+      "bytes": 2166,
+      "sha256": "6ee016d3d155587979c2134c4418aaf39e05e21d054f89a7820caf8655ec65d0"
+    },
+    {
+      "path": "summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/FAILURE_LOG.md",
+      "bytes": 758,
+      "sha256": "ef1a286155db796d9b0fea2010fe9d91c2fe41c7840f975877f602ce2ce19f5a"
+    },
+    {
+      "path": "summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/README.md",
+      "bytes": 1070,
+      "sha256": "8ec5b038f648d8df5ffaf1aa9c25d2cea979f82a43ced02373fb4da6aa70f194"
+    },
+    {
+      "path": "summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/RESULTS.md",
+      "bytes": 2779,
+      "sha256": "cb6f1f413a4bda787aacc89758e80cd3183db3987055fb596792993775ff9142"
+    },
+    {
+      "path": "summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/SHA256SUMS.txt",
+      "bytes": 373,
+      "sha256": "763145c895ba39da9e7c59963998f76f1d089b209656643de7b2ac208f1a53c2"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "package": "M2_RIM_ABLATION_SOURCE_REANALYSIS",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "analyze_fig6c.py",
+      "source_sha256": "236bab890e1d504e1713f8ccf466788b2a4d53d4a25a1c1b6054a54c24cd2251",
+      "published_sha256": "f23c01a49edd0d32057d8aa5947a51c0b0df5c5e635f6b0833a195a6af4cebfc",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "EXPERIMENT_CONTRACT.md",
+    "FAILURE_LOG.md",
+    "RESULTS.md",
+    "SHA256SUMS.txt"
+  ],
+  "source_results_files": [
+    "README.md",
+    "SHA256SUMS.txt",
+    "direction_bin_descriptives.csv",
+    "figure6c_event_level_descriptive.png",
+    "run_manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
