@@ -1,0 +1,7 @@
+metric,n,unique_predictor_values,rho,two_sided_p_unadjusted,holm_adjusted_p,status
+in_strength,82,4,-0.0698280430311637,0.533038704097204,1,ESTIMABLE
+out_strength,82,5,-0.112374678277168,0.314818795335539,1,ESTIMABLE
+reciprocal_strength,82,2,-0.1124163883264,0.314638061892055,1,ESTIMABLE
+reciprocal_fraction,82,3,-0.109619651280263,0.32690475068013,1,ESTIMABLE
+two_step_return_strength,82,2,-0.1124163883264,0.314638061892055,1,ESTIMABLE
+three_step_return_strength,82,1,NA,NA,NA,NOT_ESTIMABLE_CONSTANT_PREDICTOR

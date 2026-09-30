@@ -29,3 +29,5 @@ The prespecified topology null produced 1,000 unique binary degree-preserving, g
 - `data/results/FISH15_EXPERIMENT1/` — metrics, frozen null output, provenance, and figure source/output artifacts.
 - `model/FISH15_EXPERIMENT1/` — reproducible analysis runner and input instructions.
 - This directory — standalone contract, definitions, result interpretation, correction log, and validation record.
+
+A limited 2026-10-01 reporting correction marks the constant three-step return predictor as not estimable. It does not change the primary or combined decision. See `FISH15_SECONDARY_ASSOCIATIONS_CORRECTION.md`.

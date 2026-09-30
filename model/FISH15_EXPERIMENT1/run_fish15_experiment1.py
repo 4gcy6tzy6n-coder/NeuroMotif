@@ -202,11 +202,21 @@ def main():
     # All fixed node-level secondary descriptors; no selection by result.
     sec=[]
     for metric in ('in_strength','out_strength','reciprocal_strength','reciprocal_fraction','two_step_return_strength','three_step_return_strength'):
-      xx=gm['primary82'][metric][ok]; rr=float(spearmanr(xx,y).statistic);pp=float(spearmanr(xx,y).pvalue)
-      sec.append({'metric':metric,'n':n,'rho':rr,'two_sided_p_unadjusted':pp})
-    order=np.argsort([r['two_sided_p_unadjusted'] for r in sec]);adj=np.zeros(len(sec));mx=0
-    for rank,pos in enumerate(order):mx=max(mx,(len(sec)-rank)*sec[pos]['two_sided_p_unadjusted']);adj[pos]=min(1,mx)
-    for i,r in enumerate(sec):r['holm_adjusted_p']=float(adj[i])
+      xx=gm['primary82'][metric][ok]
+      if np.unique(xx).size < 2:
+        sec.append({'metric':metric,'n':n,'rho':math.nan,'two_sided_p_unadjusted':math.nan,
+                    'holm_adjusted_p':math.nan,'status':'NOT_ESTIMABLE_CONSTANT_PREDICTOR'})
+      else:
+        test=spearmanr(xx,y)
+        sec.append({'metric':metric,'n':n,'rho':float(test.statistic),
+                    'two_sided_p_unadjusted':float(test.pvalue),'holm_adjusted_p':math.nan,'status':'ESTIMABLE'})
+    # Preserve the frozen family size: non-estimable tests count as conservative p=1
+    # placeholders for adjustment, but are not reported as tested p-values.
+    finite=[i for i,r in enumerate(sec) if np.isfinite(r['two_sided_p_unadjusted'])]
+    order=sorted(finite,key=lambda i:sec[i]['two_sided_p_unadjusted']);mx=0
+    for rank,pos in enumerate(order):
+      mx=max(mx,(len(sec)-rank)*sec[pos]['two_sided_p_unadjusted'])
+      sec[pos]['holm_adjusted_p']=float(min(1,mx))
     write_csv(OUT/'FISH15_SECONDARY_ASSOCIATIONS.csv',sec)
     robust=[]
     def robustness(label,pred,outcome,cohortids,graphmetric):

@@ -1,0 +1,26 @@
+{
+  "task": "FISH15_SECONDARY_ASSOCIATIONS_REPORTING_CORRECTION_V1",
+  "status": "VERIFIED",
+  "input": "pre-existing FISH15_NEURON_METRICS.csv; no raw trace or primary outcome recomputed",
+  "primary_cohort_n": 82,
+  "secondary_family_size": 6,
+  "estimable_tests": 5,
+  "non_estimable_tests": 1,
+  "non_estimable_metric": "three_step_return_strength",
+  "reason": "constant predictor; 1 unique value across all primary neurons",
+  "estimable_holm_adjusted_p_values": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "primary_decision_changed": false,
+  "hashes": {
+    "frozen_metrics_sha256": "e20c25b90dcba640b0118c1902b76c0c33d89c4969bb5ea9df053d13048550b3",
+    "original_secondary_table_sha256": "8e182a34db7699b2abc397872442132e7740784c835fd8824c140ef7f9b0b081",
+    "corrected_secondary_table_sha256": "2cd960b5922bd143e52e3eff0e95d4a23822308a2d26d8062c90f53fe3e53f0a",
+    "correction_script_sha256": "0e10311448c53ef2b90399bafa67d525a75a8b265d16c07ec76cfe94f1bb4558",
+    "runner_sha256": "d70e8eb43662be7bbe488b9e98806a7e68e30bbf71ca87f086228f09f3077fb6"
+  }
+}

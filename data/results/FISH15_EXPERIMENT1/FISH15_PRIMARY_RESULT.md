@@ -29,3 +29,7 @@ A prior out-of-scope calculation attempt is disclosed in `../fish15/FISH15_C2_AN
 The secondary AUC implementation was corrected to use the frozen half-open `[60,70)` interval; see `FISH15_ANALYSIS_CORRECTION_LOG.md`.
 
 Reproduction inputs, software versions, and hashes are recorded in `FISH15_EXPERIMENT1_PROVENANCE.json`.
+
+## Secondary-family reporting note (2026-10-01)
+
+The pre-specified secondary family contains five estimable graph descriptors and one constant, non-estimable three-step return descriptor. All five finite tests remain Holm-adjusted p=1.0; the constant descriptor is now explicitly reported as not estimable rather than as a p=1 test. This correction does not change the primary or combined decision. See `FISH15_SECONDARY_ASSOCIATIONS_CORRECTION.md` and `FISH15_SECONDARY_ASSOCIATIONS_CORRECTED.csv`.
