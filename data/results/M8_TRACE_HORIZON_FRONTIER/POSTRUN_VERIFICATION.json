@@ -1,0 +1,11 @@
+{
+  "experiment": "M8_TRACE_HORIZON_FRONTIER",
+  "status": "CORRECTED_RUN_VALIDATION_COMPLETE",
+  "rows": 1350,
+  "unique_condition_keys": 1350,
+  "all_saved_accuracy_values_finite": true,
+  "weights_finite_guard": "runner raises FloatingPointError if any saved model weights are nonfinite",
+  "primary_mean_recomputed_from_task_metrics": 0.1875,
+  "warning": "NumPy/Accelerate emitted divide-by-zero, overflow, and invalid-operation RuntimeWarnings at matrix multiplication sites; source unresolved.",
+  "scope": "synthetic classification; exploratory; outcome-informed after implementation correction"
+}

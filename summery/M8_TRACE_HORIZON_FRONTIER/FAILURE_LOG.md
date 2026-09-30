@@ -1,0 +1,6 @@
+# M8 failure and correction record
+
+- The first exploratory execution read horizon windows by slicing the full preloaded training matrix, violating the intended rolling-buffer limit. Its outputs are retained locally under `results_v0_invalid_unbounded_history/` and excluded from the reported result. The source is not separately packaged in the public result mirror; the original run manifest contains the source hash.
+- After the correction, the fixed grid was rerun. Because first-run outcomes had already been observed, this is outcome-informed and cannot be represented as a fresh preregistered replication.
+- NumPy/Accelerate emitted divide-by-zero, overflow, and invalid-operation warnings at matrix multiplication sites in the corrected run. All runner-checked model weights and all saved accuracy values were finite, and the independent result verifier passed. The warning source remains unresolved and warrants environment-level follow-up before treating the numerical implementation as fully reproducible.
+- The horizon arms do not beat exact replay. Longer history also does not improve every delay cell: horizon 16 exceeded horizon 64 at delay 4. Do not present a generic “longer memory is better” claim.
