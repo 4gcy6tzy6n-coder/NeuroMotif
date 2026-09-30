@@ -3,68 +3,83 @@
   "files": [
     {
       "path": "model/M6_STATE_GATED_INFERENCE/EXPERIMENT_CONTRACT.md",
-      "sha256": "c28c85fc9f351788b8480899880cc0be16a7f76e8568b267c4ea938bd8b9c8df",
-      "bytes": 3748
+      "bytes": 3748,
+      "sha256": "c28c85fc9f351788b8480899880cc0be16a7f76e8568b267c4ea938bd8b9c8df"
     },
     {
       "path": "model/M6_STATE_GATED_INFERENCE/run_experiment.py",
-      "sha256": "eac75617340c4b195664aee3682f687abd5aabf8995252576ef0d9b006718a4e",
-      "bytes": 9897
+      "bytes": 9897,
+      "sha256": "eac75617340c4b195664aee3682f687abd5aabf8995252576ef0d9b006718a4e"
+    },
+    {
+      "path": "data/results/M6_STATE_GATED_INFERENCE/PACKAGE_MANIFEST.json",
+      "bytes": 821,
+      "sha256": "9b5c1095d2e406375e084c8085035a60b751ed0f1f7c305b65abfd03ca9a8cd6"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/RUN_MANIFEST.json",
-      "sha256": "b9116f742b91b24d4162d122cfbe889c44e8ab07e0811c6e12836d0b4708feec",
-      "bytes": 1041
+      "bytes": 1041,
+      "sha256": "b9116f742b91b24d4162d122cfbe889c44e8ab07e0811c6e12836d0b4708feec"
+    },
+    {
+      "path": "data/results/M6_STATE_GATED_INFERENCE/episode_errors.csv",
+      "bytes": 14310454,
+      "sha256": "f247ce2a6eae1738b10f6b4d4dc206478a5070d1117418d4a2ed3f4ec8899bc8"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v0_invalid_metric/INVALIDATION.md",
-      "sha256": "80ac7dcdc609f5340a7120490d1f3085ab45896c9631fb67cd941a8430cc66a5",
-      "bytes": 385
+      "bytes": 385,
+      "sha256": "80ac7dcdc609f5340a7120490d1f3085ab45896c9631fb67cd941a8430cc66a5"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v0_invalid_metric/episode_errors.csv",
-      "sha256": "102bcc7b55a699bcd1393263f82207661efca42483c39c9196c3fead23c0ebe3",
-      "bytes": 14211543
+      "bytes": 14211543,
+      "sha256": "102bcc7b55a699bcd1393263f82207661efca42483c39c9196c3fead23c0ebe3"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v0_invalid_metric/summary.json",
-      "sha256": "346f2acbef4a3b3994258a36702923ccc4bb01c2788acc6ffa8fc7a06703eccc",
-      "bytes": 8740
+      "bytes": 8740,
+      "sha256": "346f2acbef4a3b3994258a36702923ccc4bb01c2788acc6ffa8fc7a06703eccc"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v1_invalid_metric/INVALIDATION.md",
-      "sha256": "3635c7f83570b8a46ab8491adc7e7895c8ce87ca200c91abd8f7fa859cab89d8",
-      "bytes": 403
+      "bytes": 403,
+      "sha256": "3635c7f83570b8a46ab8491adc7e7895c8ce87ca200c91abd8f7fa859cab89d8"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v1_invalid_metric/episode_errors.csv",
-      "sha256": "102bcc7b55a699bcd1393263f82207661efca42483c39c9196c3fead23c0ebe3",
-      "bytes": 14211543
+      "bytes": 14211543,
+      "sha256": "102bcc7b55a699bcd1393263f82207661efca42483c39c9196c3fead23c0ebe3"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v1_invalid_metric/summary.json",
-      "sha256": "346f2acbef4a3b3994258a36702923ccc4bb01c2788acc6ffa8fc7a06703eccc",
-      "bytes": 8740
+      "bytes": 8740,
+      "sha256": "346f2acbef4a3b3994258a36702923ccc4bb01c2788acc6ffa8fc7a06703eccc"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v2_corrected_metric/episode_errors.csv",
-      "sha256": "f247ce2a6eae1738b10f6b4d4dc206478a5070d1117418d4a2ed3f4ec8899bc8",
-      "bytes": 14310454
+      "bytes": 14310454,
+      "sha256": "f247ce2a6eae1738b10f6b4d4dc206478a5070d1117418d4a2ed3f4ec8899bc8"
     },
     {
       "path": "data/results/M6_STATE_GATED_INFERENCE/results_v2_corrected_metric/summary.json",
-      "sha256": "d73097ac72f1afe29c4b44c83a621d1023e065dd85279331e8e91eecdf4ce1d2",
-      "bytes": 8741
+      "bytes": 8741,
+      "sha256": "d73097ac72f1afe29c4b44c83a621d1023e065dd85279331e8e91eecdf4ce1d2"
+    },
+    {
+      "path": "data/results/M6_STATE_GATED_INFERENCE/summary.json",
+      "bytes": 8741,
+      "sha256": "d73097ac72f1afe29c4b44c83a621d1023e065dd85279331e8e91eecdf4ce1d2"
     },
     {
       "path": "summery/M6_STATE_GATED_INFERENCE/README.md",
-      "sha256": "db35c0d3e4c1c0b0527b19353be8659ed37e979f2fdc7e6741db00c5622a0a9a",
-      "bytes": 2132
+      "bytes": 2417,
+      "sha256": "1e2d706272af2ec55f73d03142fb5b43c8ae1faf0f451f4916444d09c6d96df5"
     },
     {
       "path": "summery/M6_STATE_GATED_INFERENCE/RESULTS.md",
-      "sha256": "80f75cf4bcef02c739a59aba4caef1906d7443e1b2c9e53cdc4d9a34946dfa2a",
-      "bytes": 3963
+      "bytes": 3963,
+      "sha256": "80f75cf4bcef02c739a59aba4caef1906d7443e1b2c9e53cdc4d9a34946dfa2a"
     }
   ]
 }

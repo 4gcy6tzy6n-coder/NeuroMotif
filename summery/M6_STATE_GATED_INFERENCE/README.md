@@ -25,3 +25,5 @@ Does a context-gated sensory gain generalize better than a parameter-count-match
 - This directory: result interpretation and correction history.
 
 The public runner was adapted only to write to a fresh timestamped output directory (or `M6_OUTPUT_DIR`); it was not executed during publication. Archived outcome files are copied from the source record without recomputation.
+
+The top-level `data/results/M6_STATE_GATED_INFERENCE/summary.json` and `episode_errors.csv` match the corrected v2 output byte-for-byte; the nested version directories preserve invalidated earlier runs and correction history. The package manifest records the source-to-public checks.

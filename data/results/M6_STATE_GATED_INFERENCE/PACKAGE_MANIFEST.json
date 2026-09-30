@@ -1,0 +1,20 @@
+{
+  "package": "M6_STATE_GATED_INFERENCE",
+  "canonical_source_directory": "local project data/results/M6_STATE_GATED_INFERENCE",
+  "canonical_source_results_byte_identical": true,
+  "canonical_source_result_files": [
+    "RUN_MANIFEST.json",
+    "episode_errors.csv",
+    "summary.json"
+  ],
+  "additional_archived_correction_history": "experiments/m6_state_gated_inference/results_v0_invalid_metric, results_v1_invalid_metric, results_v2_corrected_metric",
+  "model_code_adaptations": [
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "469106ac5b34e39d119853c30b3d7a67d62ffa28a84705fb30ad69531b0874d9",
+      "published_sha256": "eac75617340c4b195664aee3682f687abd5aabf8995252576ef0d9b006718a4e",
+      "change": "rerun-safe output routing only"
+    }
+  ],
+  "experiment_rerun_for_publication": false
+}
