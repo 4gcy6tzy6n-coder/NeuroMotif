@@ -1,0 +1,32 @@
+{
+  "package": "M2_JI2021_FEEDBACK_DYNAMICS",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_model.py",
+      "source_sha256": "4609182e898f7539655ffe95e069dfd378ecc6478cbc7b55123b828de76e5c28",
+      "published_sha256": "7aee77fe1255b92727f2a016de711ebeb1e30c5822d34ed92664cc99670632f9",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "FAILURE_LOG.md",
+    "M2_JI2021_FEEDBACK_DYNAMICS_CONTRACT.md",
+    "RESULTS.md",
+    "SHA256SUMS.txt"
+  ],
+  "source_results_files": [
+    "POSTRUN_VERIFICATION.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "feedback_noise_sweep.png",
+    "run_manifest.json",
+    "simulation_metrics.csv",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
