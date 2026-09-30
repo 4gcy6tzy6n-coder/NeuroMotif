@@ -1,0 +1,21 @@
+{
+  "experiment": "M9_M5_EPROP_RECURRENT_ASSOCIATION",
+  "status": "FROZEN_BEFORE_THIS_RUN",
+  "python": "3.12.13",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "contract_sha256": "68cef16cb009af6ac0d4d5d3b71a03818b9c29032fd6fea92f0ccb463fa314f1",
+  "runner_sha256": "4426c7e93fc484e906cc504c12ea0591d5264c1bc5522380229570b21c898bab",
+  "planned_task_seeds": 30,
+  "planned_delays": [
+    4,
+    16,
+    64
+  ],
+  "planned_arms": [
+    "ELIGIBILITY_TRACE",
+    "NO_TRACE",
+    "BPTT"
+  ],
+  "current_run_outcomes_inspected_before_freeze": false,
+  "prior_m5_experiment_outcomes_were_known": true
+}

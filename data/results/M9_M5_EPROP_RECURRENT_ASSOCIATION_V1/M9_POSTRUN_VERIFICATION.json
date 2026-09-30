@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "all_270_cells_present": true,
+  "unique_seed_delay_arm_keys": 270,
+  "all_metrics_finite": true,
+  "train_test_counts_match_contract": true,
+  "primary_contrast_recomputed_from_seed_level_rows": 0.0008888888888888927,
+  "matches_saved_primary": true,
+  "runner_contract_hashes_match_preflight": true
+}

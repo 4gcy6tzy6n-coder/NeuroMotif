@@ -1,0 +1,9 @@
+{
+  "python": "3.12.13",
+  "numpy": "2.4.4",
+  "contract_sha256": "68cef16cb009af6ac0d4d5d3b71a03818b9c29032fd6fea92f0ccb463fa314f1",
+  "runner_sha256": "4426c7e93fc484e906cc504c12ea0591d5264c1bc5522380229570b21c898bab",
+  "result_sha256": "f0bb73fba4283f70c0b695717e7c7456e320b8245e90ec15f8d443d781520d08",
+  "rows_sha256": "f45f085d2fd3b15eca3eedc3ab645671a3d441c220735ebf2ef2f8623617f687",
+  "task_seed_contrasts_sha256": "7ae5693e96cd423adaac25f031888451eb9cccdeecf8a6265eac6d3b07e195de"
+}

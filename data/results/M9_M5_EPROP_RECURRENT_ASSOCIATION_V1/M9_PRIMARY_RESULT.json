@@ -1,0 +1,87 @@
+{
+  "experiment": "M9_M5_EPROP_RECURRENT_ASSOCIATION",
+  "classification": "POST_RESULT_EXPLORATORY",
+  "n_task_seeds": 30,
+  "delays": [
+    4,
+    16,
+    64
+  ],
+  "primary_unit": "task_seed",
+  "primary_contrast": "ELIGIBILITY_TRACE - NO_TRACE, equal mean across delays",
+  "primary": {
+    "mean": 0.0008888888888888927,
+    "ci95_low": -0.0006222222222222203,
+    "ci95_high": 0.0024888888888888903,
+    "positive_seed_count": 10,
+    "n_task_seeds": 30
+  },
+  "arm_means_equal_delay": {
+    "ELIGIBILITY_TRACE": {
+      "mean_accuracy": 0.30288888888888893
+    },
+    "NO_TRACE": {
+      "mean_accuracy": 0.302
+    },
+    "BPTT": {
+      "mean_accuracy": 0.3030222222222222
+    },
+    "eligibility_minus_no_trace": {
+      "mean": 0.0008888888888888927,
+      "ci95_low": -0.0006222222222222203,
+      "ci95_high": 0.0024888888888888903,
+      "positive_seed_count": 10,
+      "n_task_seeds": 30
+    },
+    "eligibility_minus_bptt": {
+      "mean": -0.0001333333333333288,
+      "ci95_low": -0.0009777777777777812,
+      "ci95_high": 0.000800000000000009,
+      "positive_seed_count": 6,
+      "n_task_seeds": 30
+    },
+    "no_trace_minus_bptt": {
+      "mean": -0.0010222222222222217,
+      "ci95_low": -0.0023555555555555543,
+      "ci95_high": 0.00022222222222222088,
+      "positive_seed_count": 9,
+      "n_task_seeds": 30
+    }
+  },
+  "by_delay": {
+    "4": {
+      "eligibility_minus_no_trace_mean": 0.004533333333333332,
+      "ci95_low": 0.002133333333333335,
+      "ci95_high": 0.007466666666666657,
+      "positive_seed_count": 14
+    },
+    "16": {
+      "eligibility_minus_no_trace_mean": 0.00026666666666666505,
+      "ci95_low": -0.001866666666666672,
+      "ci95_high": 0.00253333333333333,
+      "positive_seed_count": 8
+    },
+    "64": {
+      "eligibility_minus_no_trace_mean": -0.0021333333333333334,
+      "ci95_low": -0.004666666666666667,
+      "ci95_high": 0.0002666666666666669,
+      "positive_seed_count": 4
+    }
+  },
+  "parameter_count_per_arm": 892,
+  "model": {
+    "input_dim": 8,
+    "hidden_units": 24,
+    "classes": 4,
+    "leak": 0.1,
+    "trace_decay": 0.98,
+    "learning_rate": 0.02,
+    "clip_norm": 1.0
+  },
+  "seed_range": [
+    100,
+    129
+  ],
+  "bootstrap_resamples": 20000,
+  "bootstrap_seed": 2026093009
+}
