@@ -1,0 +1,32 @@
+{
+  "classification": "POST_RESULT_EXPLORATORY_OPTIMIZATION",
+  "outcome_data_generated_by": "run_m9_v2.py (pinned preflight hash)",
+  "manifest_recovery": "The runner completed all training, test metrics, primary result and report outputs, then failed only while reading a contract path left over from its copied M9-v1 source. Hash and numeric-table verification are recorded in M9V2_POSTRUN_VERIFICATION.json.",
+  "contract_sha256": "d89c102a8d329a6cd2092432c24436e0d7ab7bed4bca7287060ea94b44034763",
+  "runner_sha256": "43c6ec2bdda6a125589dd952e21a8347bb1da80ef1fdbc73f74567b45a025b8b",
+  "result_sha256": "d312085e6258ee2569035b09ea30995b45d0171750c7f63682badc0b2aaa6bd7",
+  "rows_sha256": "e534ee5d804860e3c6e7e62987fcee256976dc3942779a7f3a1159fdf5e8281b",
+  "task_seed_contrasts_sha256": "b7d9b5445a819017812f29b63c83aa12b27a310f4b799a53296cc52b9bb1c411",
+  "n_metric_rows": 270,
+  "n_unique_seed_delay_arm_cells": 270,
+  "bptt_viability_by_delay": {
+    "4": {
+      "mean": 0.7115999999999999,
+      "ci95_low": 0.6911999999999999,
+      "ci95_high": 0.7295999999999999,
+      "viable": true
+    },
+    "16": {
+      "mean": 0.5078666666666668,
+      "ci95_low": 0.47959666666666667,
+      "ci95_high": 0.5358666666666667,
+      "viable": true
+    },
+    "64": {
+      "mean": 0.2873333333333334,
+      "ci95_low": 0.26693333333333336,
+      "ci95_high": 0.30866666666666664,
+      "viable": true
+    }
+  }
+}
