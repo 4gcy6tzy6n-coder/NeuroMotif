@@ -11,3 +11,5 @@ The directory name `summery/` follows the repository owner's requested spelling.
 - what the result does and does not establish.
 
 Do not erase failed or superseded runs; retain them as provenance.
+
+- `M5_RECURRENT_RESERVOIR_BANDIT/` — outcome-informed recurrent-reservoir follow-up contract, findings, limitations, and checksum manifest.

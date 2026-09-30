@@ -31,3 +31,7 @@ A further post-result run moved from supervised delayed labels to a two-action c
 - Code: [`model/M5_CEREBELLAR/run_delayed_teaching.py`](../../../model/M5_CEREBELLAR/run_delayed_teaching.py)
 - Results: [`data/results/M5_CEREBELLAR/`](../../../data/results/M5_CEREBELLAR/)
 - Protocol versions and detailed interpretation: this directory.
+
+## Recurrent-reservoir architecture follow-up
+
+A fixed random leaky recurrent reservoir with a learned linear readout retained a smaller positive trace advantage on the same contextual-bandit objective: `+0.002887` held-out expected reward (paired task-seed bootstrap 95% interval `[+0.002089,+0.003815]`, 30 seeds; 27/30 positive four-delay seed averages). The contrast declined from `+0.003982` at delay 1 to `+0.001423` at delay 64. Exact replay remained stronger (`0.51812` versus `0.50327` trace and `0.50038` no-trace). This is evidence in a recurrent feature generator only: reservoir weights were fixed, so it is not a trained RNN/LNN/LTC or architecture-generalization result. The run emitted NumPy matrix-operation warnings despite finite, independently reproduced outputs; the warning source remains unresolved. See [`../M5_RECURRENT_RESERVOIR_BANDIT/README.md`](../M5_RECURRENT_RESERVOIR_BANDIT/README.md).
