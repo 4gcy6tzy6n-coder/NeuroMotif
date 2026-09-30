@@ -44,3 +44,28 @@ These are separate exploratory computations and do not belong to the M2 transfer
 | [M7 — Temporal-correlation boundary](summery/M7_TEMPORAL_CORRELATION_BOUNDARY/README.md) | Trace benefit varies with temporal correlation and delay; exact replay beat eligibility in all 48 tested cells. | The pooled accuracy/MSE interaction is invalid and excluded; objective-stratified analysis is authoritative. Synthetic only. |
 
 The prospective biology route is currently deferred because access and assay capability have not been established. The published-worm-plus-synthetic route is a narrower reporting path, not completion of the original independent-validation objective.
+
+## Other archived completed rounds
+
+These rounds are preserved separately from the 12-round M2 route portfolio above. Several are post-result follow-ups, controls, or mechanism-specific simulations; do not count them as independent biological replications or pool them into one effect. Each package retains its own contract, outcomes, and failure/correction history.
+
+| Round | Evidence category and boundary |
+|---|---|
+| [Forward-state sensory gate V1](summery/M2_FORWARD_STATE_SENSORY_GATE_V1/README.md) | Initial synthetic transfer; exploratory and conditional on a designed state–noise mapping. |
+| [Forward-state sensory gate V2](summery/M2_FORWARD_STATE_SENSORY_GATE_V2/README.md) | Follow-up implementation; same synthetic mechanism family, not independent confirmation. |
+| [Forward-state sensory gate V3](summery/M2_FORWARD_STATE_SENSORY_GATE_V3/README.md) | Broader synthetic hazard/control comparison; does not validate the biological mechanism. |
+| [Feedback-site specificity V3](summery/M2_FEEDBACK_SITE_SPECIFICITY_V3/README.md) | Post-result source-model simulation; motor-only control did not fully match the sensory-feedback dynamics. |
+| [Feedback-site specificity V4](summery/M2_FEEDBACK_SITE_SPECIFICITY_V4/README.md) | Post-result stress test with stronger duration matching; remains a model-specific counterfactual. |
+| [Cross-task state feedback V1](summery/M2_CROSS_TASK_STATE_FEEDBACK_V1/README.md) | Synthetic cross-task controller study; task and output limits are in its round report. |
+| [Closed-loop active sensing V1](summery/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/README.md) | Exploratory closed-loop synthetic study; comparator and information-deadlock caveats are retained. |
+| [Forward-state decision transfer V1](summery/M2_FORWARD_STATE_DECISION_TRANSFER_V1/README.md) | Outcome-informed readout follow-up using the V3 model; not an independent model-training replication. |
+| [Ji 2021 feedback dynamics](summery/M2_JI2021_FEEDBACK_DYNAMICS/README.md) | Reimplementation/simulation of a published source model; not new animal data. |
+| [Ji 2021 feedback-site control V1](summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V1/README.md) | Post-result model counterfactual with imperfect run-duration matching. |
+| [Ji 2021 feedback-site control V2](summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/README.md) | Follow-up with finer duration calibration; source-model evidence only. |
+| [RIM-ablation Figure 6C reanalysis](summery/M2_RIM_ABLATION_SOURCE_REANALYSIS/README.md) | Descriptive event-level reanalysis; the public table does not identify animal/session, so no animal-level inference. |
+| [Eligibility trace temporal XOR V2](summery/M5_ELIGIBILITY_TEMPORAL_XOR_V2/README.md) | Post-result synthetic optimizer/task follow-up; eligibility remained below BPTT. |
+| [Drosophila counterevidence robustness V1](summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/README.md) | Synthetic reduced-order transfer/counterevidence study, not fly data. |
+| [Drosophila natural-scene counterevidence V1](summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/README.md) | Exploratory rendered-image benchmark using CC0 panorama previews; not biological data or a general vision benchmark. |
+
+The local-to-public package audit covers all 26 top-level local `model/` and `data/results/` round folders. Some source inputs are intentionally not bundled: the natural-scene acquisition package includes its public source manifest and downloader, while the published-paper workbook/source archive used by other rounds must be retrieved from the cited source record.
+
