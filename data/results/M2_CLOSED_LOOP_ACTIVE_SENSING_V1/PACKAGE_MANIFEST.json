@@ -1,0 +1,35 @@
+{
+  "package": "M2_CLOSED_LOOP_ACTIVE_SENSING_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "finalize_results.py",
+      "source_sha256": "3e304ab68949eb30f0980a31eed5a2c2777fb2f4792476ceaffbceca3702e82a",
+      "published_sha256": "5a391703a8752aae9c4e5adadadf262f2b65d8e98b82d1a8ab0f4476c899061c",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "e0da4ffa3353e521ebcf149e4a99d8d9813352c4d625f6f4df051503de7385fc",
+      "published_sha256": "cbf0acda4e08bb75c93175321b7ea8d5935e71f79889c2e979a1e5feb288f2e7",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "FAILURE_LOG.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "episode_control.csv",
+    "learned_parameters.csv",
+    "manifest.json",
+    "summary.json",
+    "training_curves.csv"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

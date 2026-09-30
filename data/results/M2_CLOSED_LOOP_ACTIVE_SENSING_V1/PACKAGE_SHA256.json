@@ -1,0 +1,70 @@
+{
+  "package": "M2_CLOSED_LOOP_ACTIVE_SENSING_V1",
+  "files": [
+    {
+      "path": "model/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/finalize_results.py",
+      "bytes": 2850,
+      "sha256": "5a391703a8752aae9c4e5adadadf262f2b65d8e98b82d1a8ab0f4476c899061c"
+    },
+    {
+      "path": "model/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/run_experiment.py",
+      "bytes": 6213,
+      "sha256": "cbf0acda4e08bb75c93175321b7ea8d5935e71f79889c2e979a1e5feb288f2e7"
+    },
+    {
+      "path": "model/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/verify_results.py",
+      "bytes": 1917,
+      "sha256": "83261baa16e9ddf391c0b94d8f1b105057a7a598686a92a7faba08bbc12dfe7f"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/PACKAGE_MANIFEST.json",
+      "bytes": 1317,
+      "sha256": "ee027f520413d5646402dbd17bed5f082283806aab4837a27bde6252082eb031"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/episode_control.csv",
+      "bytes": 13410342,
+      "sha256": "c30b0a7bf1fcddc56fe5264a81027598bb1de7feb28996c879d487a71e82379c"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/learned_parameters.csv",
+      "bytes": 17035,
+      "sha256": "60c050b3a18bcccd03b4d50c47e896722335717fd01b85b2ffba0c67fd3ce408"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/manifest.json",
+      "bytes": 879,
+      "sha256": "71ba6fdc1fba59e5bf538705f7bbf4d9d1b2bab422e3a6a23a1788ea9571b585"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/summary.json",
+      "bytes": 8476,
+      "sha256": "238a860006f221204aa004e3b05f27a1d164f30de125503b8767a8540cbdfcf7"
+    },
+    {
+      "path": "data/results/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/training_curves.csv",
+      "bytes": 21091,
+      "sha256": "a81d22086894229349982bd67d01896c3fcd27ae2226cfe04da51c992f5aeddb"
+    },
+    {
+      "path": "summery/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/CONTRACT.md",
+      "bytes": 3414,
+      "sha256": "0de691d82247fb109f42a5d641e7632ebc52df49115397c36dd6951499da68f0"
+    },
+    {
+      "path": "summery/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/FAILURE_LOG.md",
+      "bytes": 2372,
+      "sha256": "3fb55808cec6dc9b5ce6a25452ecdf9051e1d4cfc3f0b2332b753774b40157c3"
+    },
+    {
+      "path": "summery/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/README.md",
+      "bytes": 1044,
+      "sha256": "0e8d138110e847b09f74fefa0bfd0cceccf162f9c9c2c143e4f44a4426fc4454"
+    },
+    {
+      "path": "summery/M2_CLOSED_LOOP_ACTIVE_SENSING_V1/RESULTS.md",
+      "bytes": 2876,
+      "sha256": "a66cac75b713341e063603c243f21f17986697d5cc4a2ad88b3904459409245b"
+    }
+  ]
+}
