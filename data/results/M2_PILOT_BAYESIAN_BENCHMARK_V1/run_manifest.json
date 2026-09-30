@@ -1,0 +1,32 @@
+{
+  "status": "EXPLORATORY_ORACLE_BASELINE",
+  "seed": 20260930,
+  "horizon_steps": 400,
+  "episodes_per_condition": 100,
+  "hazards": [
+    0.002,
+    0.01,
+    0.04
+  ],
+  "noise_sd": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "controllers": [
+    "NO_FEEDBACK",
+    "FEEDBACK_ALPHA_0_75",
+    "ORACLE_HMM"
+  ],
+  "independent_unit": "episode",
+  "oracle_knows": [
+    "target_switch_hazard",
+    "sensor_noise_sd",
+    "artifact_transition"
+  ],
+  "warning": "The oracle is a task-specific upper-bound benchmark, not a capacity-matched learned baseline.",
+  "outputs": [
+    "episode_metrics.csv",
+    "condition_summary.json"
+  ]
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "hazard": 0.002,
+    "noise_sd": 0.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.8819499999999999,
+    "accuracy_sd_across_episodes": 0.039991444792175944,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 0.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.8999499999999999,
+    "accuracy_sd_across_episodes": 0.042886654701843455,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 0.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.9730500000000001,
+    "accuracy_sd_across_episodes": 0.03220354300101438,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.018,
+    "paired_episode_bootstrap_95ci": [
+      0.0157,
+      0.020325000000000003
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.0911,
+    "paired_episode_bootstrap_95ci": [
+      0.08285000000000003,
+      0.09924999999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.0,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7861,
+    "accuracy_sd_across_episodes": 0.03357360374888088,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.0,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.8556999999999999,
+    "accuracy_sd_across_episodes": 0.03872344316438107,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.0,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.97065,
+    "accuracy_sd_across_episodes": 0.03586524301556671,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.0696,
+    "paired_episode_bootstrap_95ci": [
+      0.06570000000000001,
+      0.073475
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.18455,
+    "paired_episode_bootstrap_95ci": [
+      0.17509937499999997,
+      0.19380000000000003
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7232499999999998,
+    "accuracy_sd_across_episodes": 0.029709239116626474,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.7811500000000001,
+    "accuracy_sd_across_episodes": 0.03824333968553257,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.9601,
+    "accuracy_sd_across_episodes": 0.04151323264753644,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.05789999999999999,
+    "paired_episode_bootstrap_95ci": [
+      0.05337499999999999,
+      0.06244999999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.002,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.23684999999999998,
+    "paired_episode_bootstrap_95ci": [
+      0.22834937499999994,
+      0.24517499999999995
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 0.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.8775749999999999,
+    "accuracy_sd_across_episodes": 0.04130365350582552,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 0.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.8905500000000001,
+    "accuracy_sd_across_episodes": 0.04211063470853361,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 0.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.9259499999999998,
+    "accuracy_sd_across_episodes": 0.035927079626725165,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.012974999999999993,
+    "paired_episode_bootstrap_95ci": [
+      0.010799999999999994,
+      0.015149999999999992
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.048374999999999994,
+    "paired_episode_bootstrap_95ci": [
+      0.042875,
+      0.05382499999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.0,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7853749999999999,
+    "accuracy_sd_across_episodes": 0.028074519793153396,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.0,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.851375,
+    "accuracy_sd_across_episodes": 0.035432705815589945,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.0,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.9078999999999999,
+    "accuracy_sd_across_episodes": 0.03881567422648441,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.06600000000000002,
+    "paired_episode_bootstrap_95ci": [
+      0.06215000000000001,
+      0.0699
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.12252500000000001,
+    "paired_episode_bootstrap_95ci": [
+      0.11587499999999999,
+      0.1292
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7214250000000001,
+    "accuracy_sd_across_episodes": 0.03019351517438568,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.7769249999999999,
+    "accuracy_sd_across_episodes": 0.033617829489661584,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.9000499999999999,
+    "accuracy_sd_across_episodes": 0.04355708549673287,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.0555,
+    "paired_episode_bootstrap_95ci": [
+      0.051874999999999984,
+      0.05924999999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.01,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.178625,
+    "paired_episode_bootstrap_95ci": [
+      0.17059999999999997,
+      0.18662499999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 0.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.882475,
+    "accuracy_sd_across_episodes": 0.03593887733416841,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 0.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.8855250000000001,
+    "accuracy_sd_across_episodes": 0.039153439094532845,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 0.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.8940250000000001,
+    "accuracy_sd_across_episodes": 0.03653712481708146,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.0030499999999999993,
+    "paired_episode_bootstrap_95ci": [
+      0.0003999999999999981,
+      0.005699999999999995
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 0.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.011550000000000003,
+    "paired_episode_bootstrap_95ci": [
+      0.0089,
+      0.014150000000000001
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.0,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7874749999999999,
+    "accuracy_sd_across_episodes": 0.026767081301743406,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.0,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.8381749999999998,
+    "accuracy_sd_across_episodes": 0.03672319162369065,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.0,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.8593999999999998,
+    "accuracy_sd_across_episodes": 0.0366737596445285,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.050699999999999995,
+    "paired_episode_bootstrap_95ci": [
+      0.046499374999999996,
+      0.054874999999999986
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.0,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.07192499999999999,
+    "paired_episode_bootstrap_95ci": [
+      0.067325,
+      0.07637500000000001
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.5,
+    "controller": "NO_FEEDBACK",
+    "accuracy_mean": 0.7180000000000003,
+    "accuracy_sd_across_episodes": 0.028167966618738095,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.5,
+    "controller": "FEEDBACK_ALPHA_0_75",
+    "accuracy_mean": 0.7639000000000001,
+    "accuracy_sd_across_episodes": 0.035323755134012536,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.5,
+    "controller": "ORACLE_HMM",
+    "accuracy_mean": 0.817775,
+    "accuracy_sd_across_episodes": 0.04707196161949351,
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_FEEDBACK_ALPHA_0_75_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.045899999999999996,
+    "paired_episode_bootstrap_95ci": [
+      0.041825,
+      0.04992499999999999
+    ],
+    "episodes": 100
+  },
+  {
+    "hazard": 0.04,
+    "noise_sd": 1.5,
+    "controller": "PAIRED_DELTA_ORACLE_HMM_MINUS_NO_FEEDBACK",
+    "accuracy_mean": 0.099775,
+    "paired_episode_bootstrap_95ci": [
+      0.09210000000000002,
+      0.10744999999999999
+    ],
+    "episodes": 100
+  }
+]
