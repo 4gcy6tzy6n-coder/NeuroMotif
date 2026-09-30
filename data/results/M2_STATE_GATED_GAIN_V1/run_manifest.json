@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_SYNTHETIC_STATE_GATING_EXPERIMENT",
+  "master_seed": 20261001,
+  "horizon_steps": 400,
+  "development_episodes": 200,
+  "test_episodes_per_cell": 300,
+  "development_condition": {
+    "hazard": 0.01,
+    "sigma_forward": 0.8,
+    "sigma_reverse": 2.4
+  },
+  "hazards": [
+    0.002,
+    0.01,
+    0.04,
+    0.12
+  ],
+  "sigma_forward_grid": [
+    0.5,
+    0.8,
+    1.2
+  ],
+  "sigma_reverse_rule": "sigma_forward + 1.6",
+  "motor_mode_transition": {
+    "forward_to_reversal": 0.03,
+    "reversal_to_forward": 0.2
+  },
+  "independent_unit": "episode",
+  "parameter_count": {
+    "gated": 3,
+    "additive": 3
+  },
+  "grid_combinations_per_architecture": 512,
+  "selected_parameters": {
+    "gated": [
+      0.25,
+      0.0,
+      0.25
+    ],
+    "additive": [
+      0.25,
+      0.0,
+      0.25
+    ]
+  },
+  "no_gate_occupancy_matched_gain": 0.21739130434782608,
+  "stationary_mode_occupancy": {
+    "forward": 0.8695652173913043,
+    "reversal": 0.13043478260869565
+  },
+  "development_accuracy": {
+    "gated": 0.9715,
+    "additive": 0.940525
+  },
+  "outputs": [
+    "episode_metrics.csv",
+    "condition_summary.json"
+  ],
+  "interpretation_limit": "synthetic task only; reversal-state noise contrast is an experimental assumption, not an established biological fact"
+}
