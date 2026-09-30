@@ -1,0 +1,62 @@
+{
+  "seed": 2026093001,
+  "python": "3.12.13",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "h5py": "3.16.0",
+  "input_sha256": {
+    "data/raw/fish15/clem_zfish1_functional_data.h5": "386529a23a4943a1d125cb9592075e3c0b3d6239e68c60a1ae4cd2a9ec06f5db",
+    "data/fish15/traced_axons_neurons.zip": "b5aec9b38a23bce45bec0b1153ccc8b055671ce5b29b177e7aec185ff1a6077b",
+    "data/raw/fish15/source/Zebrafish_CLEM/1. Downloading_neuronal_morphologies_and_metadata/all_reconstructed_neurons.csv": "2a844e4d498e31dc5e3dffa1039dd2ffa8ea3a3d728451f6c8cb6411d9f36ac5",
+    "results/fish15/FISH15_C2_97_NEURON_STRUCTURAL_COVERAGE.csv": "dc1b294ec8eedf8e00a30e47d06d854287639fd0ec787fec020a110c978b10bf"
+  },
+  "graph_audit": {
+    "primary82": {
+      "external_or_unmapped_partner_rows": 1980,
+      "excluded_below_cutoff_rows": 3193,
+      "retained_predicted_annotations": 38,
+      "self_edges_excluded": 1,
+      "nodes": 82,
+      "distinct_directed_pairs": 31,
+      "retained_within_cohort_annotations": 38
+    },
+    "expanded97": {
+      "external_or_unmapped_partner_rows": 2435,
+      "excluded_below_cutoff_rows": 3919,
+      "retained_predicted_annotations": 90,
+      "retained_manual_annotations": 21,
+      "self_edges_excluded": 1,
+      "nodes": 97,
+      "distinct_directed_pairs": 88,
+      "retained_within_cohort_annotations": 111
+    }
+  },
+  "result": {
+    "decision": "INDETERMINATE / INVALID FROZEN TOPOLOGY NULL",
+    "analysis_status": "RETROSPECTIVE_SINGLE_SPECIMEN_DISCOVERY_WITH_PRIOR_OUTCOME_EXPOSURE",
+    "n_primary_cohort": 82,
+    "n_endpoint_defined": 82,
+    "n_endpoint_missing": 0,
+    "n_single_direction": 0,
+    "primary_spearman_rho": -0.10961965128026348,
+    "primary_positive_association_status": "NOT_SUPPORTED",
+    "positive_permutation_p": 0.8337166283371663,
+    "two_sided_permutation_p": 0.3387661233876612,
+    "permutation_draws_requested": 10000,
+    "permutation_draws_valid": 10000,
+    "bootstrap_ci95_low": -0.29322829156871244,
+    "bootstrap_ci95_high": 0.13382410486399873,
+    "bootstrap_draws_requested": 10000,
+    "bootstrap_draws_valid": 9844,
+    "topology_null_status": "INVALID_STATISTIC_VARIANCE",
+    "topology_null_n": 1000,
+    "topology_null_defined_rho_n": 139,
+    "topology_null_undefined_rho_n": 861,
+    "topology_null_empirical_p": null,
+    "topology_null_preserves_binary_in_out_degree": true,
+    "topology_null_preserves_global_weight_multiset": true,
+    "topology_null_preserves_node_strength": false,
+    "seed": 2026093001,
+    "confirmation_status": "RETROSPECTIVELY_SPECIFIED; PARTIALLY_INFORMED"
+  }
+}
