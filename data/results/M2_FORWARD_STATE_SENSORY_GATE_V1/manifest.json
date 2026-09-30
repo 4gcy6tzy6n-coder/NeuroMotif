@@ -1,0 +1,23 @@
+{
+  "experiment_id": "M2_FORWARD_STATE_SENSORY_GATE_V1",
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "torch": "2.8.0",
+  "parameters": {
+    "train_seeds": [
+      42000,
+      42019
+    ],
+    "training_episodes": 256,
+    "test_episodes": 512,
+    "horizon": 160,
+    "updates": 120,
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20261005
+  },
+  "sha256": {
+    "episode_metrics.csv": "9469f8742ad7ab7b5f4652cb646a8e8253f40242c31fda31f323f55c5711c8e1",
+    "learned_parameters.csv": "445e6360d963f45643a62fa852eead944e8a856adce3a89af6cac901c418d681",
+    "summary.json": "63a95503b8105415ad388ce18d033617b0d541edc86bdaa2b4a2bd711b7d6a19"
+  }
+}

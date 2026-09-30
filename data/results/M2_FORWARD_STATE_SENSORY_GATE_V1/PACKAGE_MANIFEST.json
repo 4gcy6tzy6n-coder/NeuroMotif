@@ -1,0 +1,28 @@
+{
+  "package": "M2_FORWARD_STATE_SENSORY_GATE_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "289c6f7d335c0109f716664e304661ae0d4390d4318afec85ab7cd41c8cb6507",
+      "published_sha256": "51c2962542592b9cfb4928973431289a63e3ac2bb0c87c4c121c93fc23626d96",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "IMPLEMENTATION_INCIDENT.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "episode_metrics.csv",
+    "learned_parameters.csv",
+    "manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

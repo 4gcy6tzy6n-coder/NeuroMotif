@@ -1,0 +1,65 @@
+{
+  "package": "M2_FORWARD_STATE_SENSORY_GATE_V1",
+  "files": [
+    {
+      "path": "model/M2_FORWARD_STATE_SENSORY_GATE_V1/finalize_results.py",
+      "bytes": 2487,
+      "sha256": "b847be4b6d3b2dafbb57c85592a58942527e9f8d56066d7b3f3d72d89b900753"
+    },
+    {
+      "path": "model/M2_FORWARD_STATE_SENSORY_GATE_V1/run_experiment.py",
+      "bytes": 6270,
+      "sha256": "51c2962542592b9cfb4928973431289a63e3ac2bb0c87c4c121c93fc23626d96"
+    },
+    {
+      "path": "model/M2_FORWARD_STATE_SENSORY_GATE_V1/verify_results.py",
+      "bytes": 1693,
+      "sha256": "facc24d7fb188fbc187ab83bbebdf1cb524390250a85b3b5475c73c8faff6c7d"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_SENSORY_GATE_V1/PACKAGE_MANIFEST.json",
+      "bytes": 986,
+      "sha256": "4c54d6bd9dbae5255978cc9244253ad22707c68be424e0890e73d641b08d98b3"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_SENSORY_GATE_V1/episode_metrics.csv",
+      "bytes": 12073739,
+      "sha256": "9469f8742ad7ab7b5f4652cb646a8e8253f40242c31fda31f323f55c5711c8e1"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_SENSORY_GATE_V1/learned_parameters.csv",
+      "bytes": 6576,
+      "sha256": "445e6360d963f45643a62fa852eead944e8a856adce3a89af6cac901c418d681"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_SENSORY_GATE_V1/manifest.json",
+      "bytes": 656,
+      "sha256": "06a869ddae3b34522f183151882a0d9ec6f9bc6a41288f8aec48e40c7b375d37"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_SENSORY_GATE_V1/summary.json",
+      "bytes": 2584,
+      "sha256": "63a95503b8105415ad388ce18d033617b0d541edc86bdaa2b4a2bd711b7d6a19"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_SENSORY_GATE_V1/CONTRACT.md",
+      "bytes": 2509,
+      "sha256": "553cfa17f47cfc3b96017cf2bfe3b4b271a1eee1250a19c3d1008d089ba00eb7"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_SENSORY_GATE_V1/IMPLEMENTATION_INCIDENT.md",
+      "bytes": 1248,
+      "sha256": "71da083b0867faf007e61bdb3eab195dc36fb48e6461cd6269d8fbd96803af7a"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_SENSORY_GATE_V1/README.md",
+      "bytes": 979,
+      "sha256": "ba6b2f0e4efbc89a6fdf0c12a9f4a0029c77eb05eec9c446463f2f0f0d814848"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_SENSORY_GATE_V1/RESULTS.md",
+      "bytes": 586,
+      "sha256": "4318e62ca8cba3b3163a8737af1dfc1c5d8e80d3f7939e7d57c8478fd64a414a"
+    }
+  ]
+}
