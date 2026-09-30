@@ -1,0 +1,63 @@
+{
+  "status": "EXPLORATORY_CLOSED_LOOP_CONTROL_EXPERIMENT",
+  "master_seed": 20261003,
+  "horizon": 240,
+  "test_episodes_per_cell": 300,
+  "hazards": [
+    0.002,
+    0.02,
+    0.08
+  ],
+  "noise_profiles": {
+    "HIGH_REVERSAL_NOISE": [
+      0.2,
+      1.2
+    ],
+    "EQUAL_NOISE": [
+      0.7,
+      0.7
+    ],
+    "REVERSED_NOISE": [
+      1.2,
+      0.2
+    ]
+  },
+  "mode_transition": {
+    "forward_to_reversal": 0.03,
+    "reversal_to_forward": 0.2
+  },
+  "plant": {
+    "position_bounds": [
+      -5,
+      5
+    ],
+    "action_gain": 0.15,
+    "process_noise_sd": 0.01
+  },
+  "independent_unit": "episode",
+  "trained_gru": {
+    "parameters": 1025,
+    "first_epoch_mse": 0.24302751291543245,
+    "last_epoch_mse": 0.014894324296619743,
+    "epochs": 8,
+    "training_episodes": 512,
+    "training_horizon": 160
+  },
+  "policies": [
+    "GATED_FEEDBACK",
+    "NO_GATE_FEEDBACK",
+    "GATED_NO_FEEDBACK",
+    "UNGATED_MEMORYLESS",
+    "TRAINED_GRU",
+    "PRIVILEGED_TEACHER"
+  ],
+  "outputs": [
+    "episode_metrics.csv",
+    "condition_summary.json"
+  ],
+  "limitations": [
+    "mode-dependent noise is synthetic, not established by source biology",
+    "privileged teacher sees true state",
+    "no biological measurements used"
+  ]
+}
