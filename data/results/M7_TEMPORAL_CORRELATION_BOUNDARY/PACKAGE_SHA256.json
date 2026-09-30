@@ -1,0 +1,60 @@
+{
+  "package": "M7_TEMPORAL_CORRELATION_BOUNDARY",
+  "files": [
+    {
+      "path": "model/M7_TEMPORAL_CORRELATION_BOUNDARY/EXPERIMENT_CONTRACT.md",
+      "sha256": "d193f1c35df92e9979d44811d4799bd93db1038305fea070d9b596911bef0f92",
+      "bytes": 3683
+    },
+    {
+      "path": "model/M7_TEMPORAL_CORRELATION_BOUNDARY/analyze_results.py",
+      "sha256": "9ee221e44a24a0c3a9131042b4a39d9bb6efe486080e55f5ba5551a7c03279ca",
+      "bytes": 3282
+    },
+    {
+      "path": "model/M7_TEMPORAL_CORRELATION_BOUNDARY/run_experiment.py",
+      "sha256": "2052c679ceb9567be3476e96b0280798c80753558e20f2e03622def360387295",
+      "bytes": 8208
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/ANALYSIS_MANIFEST.json",
+      "sha256": "c3d87768ec240bf74f6a4634f5541da787abf4a03504dabbed8e5e222731a95d",
+      "bytes": 1225
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/analysis_v1_objective_stratified.json",
+      "sha256": "7f588c8264b0dc565759b925f54ca2c904137097858e79081aa11f31169c8e22",
+      "bytes": 17231
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/primary_seed_contrasts.csv",
+      "sha256": "4ee08d09542fca95d7a19fbeabb4a13c2b912b128f23dacd73fa902ea66f9472",
+      "bytes": 724
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/run_manifest.json",
+      "sha256": "8d967faeb06a358864bf219394403c39052a3273d8ca2c30b85483cc0f187c77",
+      "bytes": 1040
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/summary.json",
+      "sha256": "c6682de738be7848de4b079287e4fde261808c2539d6462b2e6a1aab0c40d6d6",
+      "bytes": 15955
+    },
+    {
+      "path": "data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/task_metrics.csv",
+      "sha256": "23e934187b67795e897f6b42734e624461fcec5d4ea45d096502f163fb8e8aa9",
+      "bytes": 287332
+    },
+    {
+      "path": "summery/M7_TEMPORAL_CORRELATION_BOUNDARY/README.md",
+      "sha256": "8fb794fc121c3fe350f8e4312ad687119e2a2d99b19ad1fe9f18bbfe59d573b0",
+      "bytes": 2085
+    },
+    {
+      "path": "summery/M7_TEMPORAL_CORRELATION_BOUNDARY/RESULTS.md",
+      "sha256": "c872f9f4421315f079217a12da1fbce95467f00e75e817194560eeabb7af2500",
+      "bytes": 3688
+    }
+  ]
+}
