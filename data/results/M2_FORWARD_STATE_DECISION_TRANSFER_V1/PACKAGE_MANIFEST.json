@@ -1,0 +1,26 @@
+{
+  "package": "M2_FORWARD_STATE_DECISION_TRANSFER_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_analysis.py",
+      "source_sha256": "70ff3ca6fa993d12243bfea5b59d9323d48307424ff66bb00bdbfddd9759df83",
+      "published_sha256": "9e60aaa50e3d391c875f33c5d80eb20fc48a34a2ecad0edf5f1e277355e4a24d",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "RESULTS.md"
+  ],
+  "source_results_files": [
+    "episode_decisions.csv",
+    "manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

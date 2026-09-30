@@ -1,0 +1,55 @@
+{
+  "package": "M2_FORWARD_STATE_DECISION_TRANSFER_V1",
+  "files": [
+    {
+      "path": "model/M2_FORWARD_STATE_DECISION_TRANSFER_V1/finalize_analysis.py",
+      "bytes": 1667,
+      "sha256": "542aa1e287e66d214e559e3648f30ba51809ea88c6d15eed02b1300cae6c68a2"
+    },
+    {
+      "path": "model/M2_FORWARD_STATE_DECISION_TRANSFER_V1/run_analysis.py",
+      "bytes": 3741,
+      "sha256": "9e60aaa50e3d391c875f33c5d80eb20fc48a34a2ecad0edf5f1e277355e4a24d"
+    },
+    {
+      "path": "model/M2_FORWARD_STATE_DECISION_TRANSFER_V1/verify_analysis.py",
+      "bytes": 1900,
+      "sha256": "327a20ea1716f0292aeb16a23d1f1b99da5fcc732d746b66a01462b4b7434632"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_DECISION_TRANSFER_V1/PACKAGE_MANIFEST.json",
+      "bytes": 927,
+      "sha256": "2f4a5ef1b77a5583288c76f49bcf3c6cb725fe26de3efa2cce0d1648d7915ffb"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_DECISION_TRANSFER_V1/episode_decisions.csv",
+      "bytes": 62743189,
+      "sha256": "7d1c7da25b5f179cd00eb82f6804a575d0c5970d3679a3afbee73d54258f3cdb"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_DECISION_TRANSFER_V1/manifest.json",
+      "bytes": 647,
+      "sha256": "a554ecd7c348d22f1cf004f62a1cfda352d28098e64f57619cd163c89ce20fd6"
+    },
+    {
+      "path": "data/results/M2_FORWARD_STATE_DECISION_TRANSFER_V1/summary.json",
+      "bytes": 12604,
+      "sha256": "e25d538428ef2a28098faff9f4615a772b5fd33665d24b79ab1eae9bfd5f12ad"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_DECISION_TRANSFER_V1/CONTRACT.md",
+      "bytes": 2183,
+      "sha256": "86c2893917146bdb471999cc184562ad176a1a7c7f107367d5fd4f56a61b5e7c"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_DECISION_TRANSFER_V1/README.md",
+      "bytes": 999,
+      "sha256": "186738105dd3d2730938ed609cbb886186238ef978a2319a6d71af1f5d5cfad4"
+    },
+    {
+      "path": "summery/M2_FORWARD_STATE_DECISION_TRANSFER_V1/RESULTS.md",
+      "bytes": 2485,
+      "sha256": "e86ad1d5c0752debbcb2c0411c117acc9cefe2ee2be50a33c38ee439baedc86b"
+    }
+  ]
+}
