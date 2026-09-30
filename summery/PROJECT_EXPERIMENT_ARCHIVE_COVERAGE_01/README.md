@@ -27,3 +27,7 @@ The archival gate for current local experiment model/result packages is **CLOSED
 `FILE_COVERAGE_MANIFEST.csv` records each compared local relative path and both SHA-256 hashes, with status. Package summaries remain the result-level interpretation sources. This audit inspected file paths, hashes, directory coverage and already-documented code adaptations only; it did not calculate effects or p-values.
 
 **Next:** use the complete experiment archive to finish the project-wide evidence-bounded report, then make a venue decision from its actual claims. Do not reopen the closed M2 tuning line or infer that the original four-result positive story is complete.
+
+## Recordkeeping addendum — 2026-10-01
+
+After the archive-baseline audit, the Feishu project-log outline was compared against the 26 local `model/` and `data/results/` experiment-package IDs. Eleven package IDs lacked their own exact experiment heading (one result existed previously only as an unlabelled result paragraph); eleven separate, source-linked records were appended. A post-write outline check confirmed **26/26 package IDs have a distinct heading** at Feishu document revision 210. This closes experiment-package heading coverage only; it does not establish that every historical project task, decision, or ancillary audit is separately represented in Feishu.
