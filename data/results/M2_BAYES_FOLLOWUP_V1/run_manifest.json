@@ -1,0 +1,30 @@
+{
+  "status": "POST_RESULT_EXPLORATORY_BAYES_FOLLOWUP",
+  "seed": 20261001,
+  "episodes_per_environment": 1000,
+  "horizon_steps": 400,
+  "hazards": [
+    0.002,
+    0.01,
+    0.04
+  ],
+  "noise_sd": [
+    0.5,
+    1.0,
+    1.5
+  ],
+  "burst_probability": 0.05,
+  "burst_reset_probability": 0.2,
+  "controllers": [
+    "alpha_0",
+    "alpha_0.5",
+    "alpha_1",
+    "alpha_-0.5",
+    "bayes_known_generator"
+  ],
+  "independent_unit": "episode",
+  "row_count": 45000,
+  "numpy_version": "2.4.4",
+  "model_scope": "known-generator Bayes observer; synthetic task only",
+  "csv_sha256": "d336bf539a848d75de33b124d56fee0bd7eb2bad1450366893db1e2d61be84a0"
+}
