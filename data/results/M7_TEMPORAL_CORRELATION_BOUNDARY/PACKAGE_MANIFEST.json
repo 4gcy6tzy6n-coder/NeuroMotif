@@ -1,0 +1,31 @@
+{
+  "package": "M7_TEMPORAL_CORRELATION_BOUNDARY",
+  "canonical_source_directory": "local project data/results/M7_TEMPORAL_CORRELATION_BOUNDARY",
+  "canonical_source_results_byte_identical": true,
+  "canonical_source_result_files": [
+    "ANALYSIS_MANIFEST.json",
+    "README.md",
+    "SHA256SUMS.txt",
+    "analysis_v1_objective_stratified.json",
+    "primary_seed_contrasts_v0_mixed_units_invalid.csv",
+    "run_manifest.json",
+    "run_summary_v0_mixed_units_invalid.json",
+    "task_metrics.csv"
+  ],
+  "additional_archived_correction_history": "experiments/m7_temporal_correlation_boundary/results and retained mixed-unit invalid records",
+  "model_code_adaptations": [
+    {
+      "file": "analyze_results.py",
+      "source_sha256": "f29091f88c6e4afaab2127ed21d9c22bb313422f4f3f1df1bb111a246613e153",
+      "published_sha256": "4aa22758d2762601c3710677c28900bc66994373079b1d093a53c2f8e187bb69",
+      "change": "rerun-safe output routing only"
+    },
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "288a3e402c0be50f1b08bcfd209cfd6ba5252fde1217462995cebf77422ccf5a",
+      "published_sha256": "2052c679ceb9567be3476e96b0280798c80753558e20f2e03622def360387295",
+      "change": "rerun-safe output routing only"
+    }
+  ],
+  "experiment_rerun_for_publication": false
+}

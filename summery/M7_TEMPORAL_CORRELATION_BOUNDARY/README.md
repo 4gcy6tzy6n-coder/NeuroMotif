@@ -14,14 +14,16 @@ How does input autocorrelation interact with the benefit of a fixed eligibility 
 
 ## Failure lessons
 
-- The original pooled interaction mixed classification accuracy points and regression MSE points. Its pooled value is invalid and excluded; use `archive/analysis_v1_objective_stratified.json` as the authoritative analysis.
+- The original pooled interaction mixed classification accuracy points and regression MSE points. Its pooled value is invalid and excluded; use `../../data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/analysis_v1_objective_stratified.json` as the authoritative analysis.
 - The eligibility trace never beats exact replay in the 48 tested cells. This does not establish a general performance–memory tradeoff because replay budget, truncated replay, BPTT, and trained recurrent networks were not compared.
 - The study is post-result and remains within one synthetic task family; it cannot validate a biological trace parameter or general AI benefit.
 
 ## Package map
 
 - `../../model/M7_TEMPORAL_CORRELATION_BOUNDARY/`: contract, runner, and unit-safe analyzer.
-- `../../data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/archive/`: raw outcomes, original summaries, and authoritative corrected analysis.
+- `../../data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/`: raw outcomes, original summaries, and authoritative corrected analysis.
 - This directory: result interpretation and correction history.
 
 The public runner and analyzer were adapted only to use fresh timestamped output paths (or documented environment variables); neither was executed during publication. Archived outcome and analysis files are copied from the source record without recomputation.
+
+Top-level `data/results/M7_TEMPORAL_CORRELATION_BOUNDARY/` files match the local source outputs byte-for-byte. The `archive/` subdirectory is a duplicate package copy retained from the initial release layout; the top-level files are canonical. Invalid mixed-unit files are retained and excluded.

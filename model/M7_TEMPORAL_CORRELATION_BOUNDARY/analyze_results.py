@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import numpy as np
 ROOT=Path(__file__).resolve().parent
-DATA=Path(os.environ.get('M7_DATA_FILE', ROOT.parents[1]/'data'/'results'/'M7_TEMPORAL_CORRELATION_BOUNDARY'/'archive'/'task_metrics.csv'))
+DATA=Path(os.environ.get('M7_DATA_FILE', ROOT.parents[1]/'data'/'results'/'M7_TEMPORAL_CORRELATION_BOUNDARY'/'task_metrics.csv'))
 DEFAULT_OUT=ROOT.parents[1]/'data'/'results'/'M7_TEMPORAL_CORRELATION_BOUNDARY'/('analysis_rerun_'+datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'.json')
 OUT=Path(os.environ.get('M7_ANALYSIS_OUTPUT',DEFAULT_OUT))
 RHOS=(0.0,0.2,0.4,0.6,0.8,0.9); DELAYS=(1,4,16,64); OBJECTIVES=('CLASSIFICATION','REGRESSION'); SEEDS=30; BOOT=20000
