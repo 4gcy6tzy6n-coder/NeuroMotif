@@ -1,0 +1,52 @@
+{
+  "status": "SUMMARY_AND_REPORTED_INVARIANT_AUDIT_PASSED",
+  "checks": {
+    "unique_null_rows": 1000,
+    "all_rhos_finite": true,
+    "unique_topology_hashes": 1000,
+    "all_saved_invariant_flags_equal_one": true,
+    "all_graphs_condition_on_two_reciprocal_dyads": true,
+    "all_graphs_have_nonconstant_lri": true,
+    "observed_rho_independently_recomputed": -0.10961965128026348,
+    "upper_tail_empirical_p_recomputed": 0.9180819180819181,
+    "two_sided_absolute_tail_empirical_p_recomputed": 0.1998001998001998,
+    "null_quantiles_mean_sd_recomputed": {
+      "q025_q975": [
+        -0.18160623816926652,
+        0.15677913660357393
+      ],
+      "mean": -0.0196442448765209,
+      "sd": 0.08421412180908246
+    },
+    "rho_chain_autocorrelation_lag1": 0.7136514348964045,
+    "rho_chain_autocorrelation_lags1to20": [
+      0.7136514348964045,
+      0.5081901022870757,
+      0.4004010829745909,
+      0.3076634559713645,
+      0.219126002717101,
+      0.1702943191148076,
+      0.1500107163314902,
+      0.14126567389410533,
+      0.11493135958785505,
+      0.08467648021188598,
+      0.03940363255420191,
+      -0.0054574330254231985,
+      -0.024251946224588383,
+      -0.006673884068987261,
+      0.023888254249379667,
+      0.03208197369099678,
+      0.027053701516889295,
+      0.014137304217532728,
+      -0.001060156623113661,
+      -0.02794840196871929
+    ],
+    "approx_initial_positive_sequence_ess": 149.5145191415783,
+    "approx_mc_standard_error_for_null_mean": 0.0068872086448996455,
+    "mixing_status": "UNRESOLVED_HIGH_SERIAL_AUTOCORRELATION",
+    "preflight_input_hashes_unchanged": true,
+    "simulation_runner_hash_matches_preflight": true
+  },
+  "verification_boundary": "Per-graph edge lists were not saved; graph invariants are checked from the runner's per-graph invariant flags and audited against the frozen same-weight swap implementation, not independently reconstructed from edge states. Chain autocorrelation is high; ESS is an approximate diagnostic, and the empirical null tail is not treated as well-mixed confirmatory inference.",
+  "verification_script_sha256": "9db35e9c36e1b717170dd1ae83607ceff7973e1f78559ffa11f8b9249f4767ef"
+}

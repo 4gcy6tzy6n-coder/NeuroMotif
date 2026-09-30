@@ -13,3 +13,4 @@ The directory name `summery/` follows the repository owner's requested spelling.
 Do not erase failed or superseded runs; retain them as provenance.
 
 - `M5_RECURRENT_RESERVOIR_BANDIT/` — outcome-informed recurrent-reservoir follow-up contract, findings, limitations, and checksum manifest.
+- `FISH15_POSTRESULT_RECURRENCE_NULL_V1/` — Fish1.5 sparse-graph diagnosis, conditional-null limitations, reproduction boundary, and failure lessons.

@@ -1,0 +1,24 @@
+{
+  "status": "POST_RESULT_PREFLIGHT_OUTCOMES_ALREADY_KNOWN",
+  "experiment": "FISH15_E1_POSTRESULT_RECURRENCE_CONDITIONED_NULL_V1",
+  "known_trigger": "Frozen null produced 861/1000 undefined rho values; original E1 primary outcome is already public in project artifacts.",
+  "input_sha256": {
+    "data/fish15/traced_axons_neurons.zip": "b5aec9b38a23bce45bec0b1153ccc8b055671ce5b29b177e7aec185ff1a6077b",
+    "results/fish15/FISH15_C2_97_NEURON_STRUCTURAL_COVERAGE.csv": "dc1b294ec8eedf8e00a30e47d06d854287639fd0ec787fec020a110c978b10bf",
+    "data/raw/fish15/source/Zebrafish_CLEM/1. Downloading_neuronal_morphologies_and_metadata/all_reconstructed_neurons.csv": "2a844e4d498e31dc5e3dffa1039dd2ffa8ea3a3d728451f6c8cb6411d9f36ac5",
+    "results/experiment1/FISH15_NEURON_METRICS.csv": "e20c25b90dcba640b0118c1902b76c0c33d89c4969bb5ea9df053d13048550b3",
+    "results/experiment1/FISH15_PRIMARY_RESULT.json": "c99569555ff2ef17844d7002914df5e29cbb3727169bb0caa04ee4a71bc09171"
+  },
+  "contract_sha256": "c6a2b5a7bfb763dfbe94a15328c4a3fb324c5a31bba7511b82af697343e9ac8a",
+  "original_runner_sha256": "1c77ab70acc97a53bb59960b092974ebeb1513b2d9ab79fbf653ec108179cf6f",
+  "runner_sha256": "1fea50663aed87b236badcbdc06810ff870f5513026634408d995610cdf82f96",
+  "fixed_parameters": {
+    "seed": 2026093017,
+    "n_null": 1000,
+    "max_proposals": 50000000,
+    "min_accepted_swaps_between_saved_graphs": 310,
+    "condition_reciprocal_dyad_count": 2,
+    "same_edge_weight_swaps_only": true
+  },
+  "new_conditional_null_outcomes_not_yet_generated": true
+}

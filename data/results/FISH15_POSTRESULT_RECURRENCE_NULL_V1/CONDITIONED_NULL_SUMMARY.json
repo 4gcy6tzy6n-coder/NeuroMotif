@@ -1,0 +1,28 @@
+{
+  "status": "POST_RESULT_CONDITIONED_NULL_COMPLETE",
+  "interpretation": "Exploratory single-specimen sensitivity only; the original primary result and invalid frozen-null result are unchanged.",
+  "n_unique_graphs": 1000,
+  "proposals": 393313,
+  "accepted_swaps_total": 310000,
+  "minimum_accepted_swaps_between_saved_graphs": 310,
+  "observed_primary_rho": -0.10961965128026348,
+  "conditioned_null_rho_mean": -0.0196442448765209,
+  "conditioned_null_rho_sd": 0.08421412180908246,
+  "conditioned_null_rho_q025_q975": [
+    -0.18160623816926652,
+    0.15677913660357393
+  ],
+  "upper_tail_empirical_p": 0.9180819180819181,
+  "two_sided_absolute_tail_empirical_p_descriptive": 0.1998001998001998,
+  "reciprocal_dyads_conditioned_to": 2,
+  "all_required_invariants_pass": true,
+  "mixing_diagnostic": {
+    "rho_chain_lag1_autocorrelation": 0.7136514348964045,
+    "approx_initial_positive_sequence_ess": 149.5145191415783,
+    "approx_null_mean_mcse": 0.0068872086448996455,
+    "approx_upper_tail_fraction_mcse": 0.022427915965939748,
+    "status": "UNRESOLVED_HIGH_SERIAL_AUTOCORRELATION; empirical tail descriptive only"
+  },
+  "edge_states_saved": false,
+  "primary_e1_result_changed": false
+}

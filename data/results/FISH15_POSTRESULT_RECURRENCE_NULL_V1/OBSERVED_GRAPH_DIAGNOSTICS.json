@@ -1,0 +1,23 @@
+{
+  "node_count": 82,
+  "edge_count": 31,
+  "retained_synapse_annotation_count": 38,
+  "reciprocal_dyad_count": 2,
+  "nonzero_lri_node_count": 4,
+  "unique_lri_value_count": 3,
+  "lri_value_counts": {
+    "0.0": 78,
+    "0.5": 3,
+    "0.3333333333333333": 1
+  },
+  "observed_primary_rho_recomputed": -0.10961965128026348,
+  "graph_builder_audit": {
+    "external_or_unmapped_partner_rows": 1980,
+    "excluded_below_cutoff_rows": 3193,
+    "retained_predicted_annotations": 38,
+    "self_edges_excluded": 1,
+    "nodes": 82,
+    "distinct_directed_pairs": 31,
+    "retained_within_cohort_annotations": 38
+  }
+}

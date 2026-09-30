@@ -1,0 +1,30 @@
+{
+  "experiment": "FISH15_E1_POSTRESULT_RECURRENCE_CONDITIONED_NULL_V1",
+  "contract": "POSTRESULT_NULL_CONTRACT.md",
+  "preflight": "PREFLIGHT.json",
+  "seed": 2026093017,
+  "n_null": 1000,
+  "max_proposals": 50000000,
+  "minimum_accepted_swaps_between_graphs": 310,
+  "conditions": {
+    "node_count": 82,
+    "edge_count": 31,
+    "reciprocal_dyads": 2,
+    "same_weight_only_swaps": true,
+    "preserve_binary_in_out_degree": true,
+    "preserve_per_node_weighted_in_out_strength": true,
+    "preserve_global_weight_multiset": true
+  },
+  "input_sha256": {
+    "data/fish15/traced_axons_neurons.zip": "b5aec9b38a23bce45bec0b1153ccc8b055671ce5b29b177e7aec185ff1a6077b",
+    "results/fish15/FISH15_C2_97_NEURON_STRUCTURAL_COVERAGE.csv": "dc1b294ec8eedf8e00a30e47d06d854287639fd0ec787fec020a110c978b10bf",
+    "data/raw/fish15/source/Zebrafish_CLEM/1. Downloading_neuronal_morphologies_and_metadata/all_reconstructed_neurons.csv": "2a844e4d498e31dc5e3dffa1039dd2ffa8ea3a3d728451f6c8cb6411d9f36ac5",
+    "results/experiment1/FISH15_NEURON_METRICS.csv": "e20c25b90dcba640b0118c1902b76c0c33d89c4969bb5ea9df053d13048550b3",
+    "results/experiment1/FISH15_PRIMARY_RESULT.json": "c99569555ff2ef17844d7002914df5e29cbb3727169bb0caa04ee4a71bc09171"
+  },
+  "outputs": [
+    "OBSERVED_GRAPH_DIAGNOSTICS.json",
+    "CONDITIONED_NULL_RESULTS.csv",
+    "CONDITIONED_NULL_SUMMARY.json"
+  ]
+}
