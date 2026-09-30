@@ -1,0 +1,55 @@
+{
+  "package": "M2_RELIABILITY_SHIFT_V1",
+  "files": [
+    {
+      "path": "model/M2_RELIABILITY_SHIFT_V1/run_reliability_shift.py",
+      "bytes": 6792,
+      "sha256": "a3c7042b7e9f5a44b8ca16465337b0640308713e4a96d02308330daa053f9881"
+    },
+    {
+      "path": "model/M2_RELIABILITY_SHIFT_V1/run_state_gated_experiment.py",
+      "bytes": 11079,
+      "sha256": "6eee7d328c2185c42d2e3f84120b0d5e027d46cc353e16b9237ea9d34d158177"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V1/PACKAGE_MANIFEST.json",
+      "bytes": 543,
+      "sha256": "e1f1a2d5aab9a1556346a8234467ebd835228544329c2d050cdbb7e145c59815"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V1/condition_summary.json",
+      "bytes": 64405,
+      "sha256": "e4de8c54604394379883f5fbe5606defe30ae40ffaddd2b02dd6ac388f5cc0b2"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V1/episode_metrics.csv",
+      "bytes": 2053975,
+      "sha256": "3da79f335e14b70816f6c78d61f2912ed486789e87ddf00878cf085631fbfd9c"
+    },
+    {
+      "path": "data/results/M2_RELIABILITY_SHIFT_V1/run_manifest.json",
+      "bytes": 842,
+      "sha256": "6fd2da353e08e0fc124c36ef2511ca4e10cb90e9f98f2c44f62d62448c324527"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V1/PROVENANCE_NORMALIZATION.md",
+      "bytes": 577,
+      "sha256": "85913a18d6c88a8f9b7aac9e6a275e63fbe70842a9cf1b3d9d5a68c7a05eeb46"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V1/README.md",
+      "bytes": 912,
+      "sha256": "d2dc0ee82bafbe23291a5a8e3c53652a911acf44004c614bfa2199ec18eb76ae"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V1/RESULTS.md",
+      "bytes": 2099,
+      "sha256": "f09269dfcf2c99b1f83bdbdcbc808eab681a52c3384a48c823d02f66743fce38"
+    },
+    {
+      "path": "summery/M2_RELIABILITY_SHIFT_V1/SHA256SUMS.txt",
+      "bytes": 834,
+      "sha256": "b6b1b502b5e7e18eff7201d06dc82a058a999721ade46b50236c2197799ff72c"
+    }
+  ]
+}
