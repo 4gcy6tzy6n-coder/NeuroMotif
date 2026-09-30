@@ -1,0 +1,46 @@
+{
+  "experiment": "M10_M5_EPROP_TEMPORAL_XOR_V1",
+  "status": "PASS",
+  "checks": {
+    "metric_rows": 270,
+    "unique_task_seed_delay_arm_keys": 270,
+    "paired_seed_rows": 30,
+    "all_metric_values_finite": true,
+    "all_metrics_within_contract_bounds": true,
+    "seed_contrasts_recomputed": true,
+    "primary_and_delay_statistics_recomputed": true,
+    "bptt_viability_recomputed": true,
+    "source_and_result_hashes_match": true
+  },
+  "max_bptt_gradient_preflight_error": 1.3056179306637251e-10,
+  "primary": {
+    "mean": -0.0003333333333333207,
+    "ci95_low": -0.0020888888888888754,
+    "ci95_high": 0.0016666666666666737,
+    "positive_seed_count": 8,
+    "n_task_seeds": 30
+  },
+  "bptt_viability_by_delay": {
+    "4": {
+      "bptt_mean_accuracy": 0.5067333333333334,
+      "ci95_low": 0.49793333333333334,
+      "ci95_high": 0.515735,
+      "chance_accuracy": 0.5,
+      "task_viable": false
+    },
+    "16": {
+      "bptt_mean_accuracy": 0.5009333333333333,
+      "ci95_low": 0.4928666666666666,
+      "ci95_high": 0.5085333333333334,
+      "chance_accuracy": 0.5,
+      "task_viable": false
+    },
+    "64": {
+      "bptt_mean_accuracy": 0.49499999999999994,
+      "ci95_low": 0.4878666666666666,
+      "ci95_high": 0.5018,
+      "chance_accuracy": 0.5,
+      "task_viable": false
+    }
+  }
+}

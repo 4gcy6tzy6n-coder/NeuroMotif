@@ -1,0 +1,97 @@
+{
+  "experiment": "M10_M5_EPROP_TEMPORAL_XOR_V1",
+  "status": "PREFLIGHT_PASSED_BEFORE_OUTCOME_RUN",
+  "classification": "POST_RESULT_EXPLORATORY_ARTIFICIAL_BENCHMARK",
+  "python": "3.12.13",
+  "numpy": "2.4.4",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "contract_sha256": "9d3648746c303021f659703932b13b85b0f385582c3f44eaca4c9ae4b504b02a",
+  "runner_sha256": "7bce749831ff0cfdc03e13e932183dd3e5cdd57ed2530ff2a2b67d03d2e67d6c",
+  "config": {
+    "seeds": [
+      300,
+      329
+    ],
+    "delays": [
+      4,
+      16,
+      64
+    ],
+    "arms": [
+      "ELIGIBILITY_TRACE",
+      "NO_TRACE",
+      "BPTT"
+    ],
+    "train_episodes": 6000,
+    "test_episodes": 500,
+    "hidden_units": 24,
+    "learning_rate": 0.02,
+    "trace_decay": 0.98,
+    "clip_norm": 1.0,
+    "bootstrap_resamples": 20000,
+    "bootstrap_seed": 2026093010
+  },
+  "xor_truth_table": {
+    "00": 0,
+    "01": 1,
+    "10": 1,
+    "11": 0
+  },
+  "timing_check": {
+    "first_cue_t": 0,
+    "distractor_steps": 4,
+    "second_cue_t": 5,
+    "readout_t": 6,
+    "sequence_length": 7
+  },
+  "bptt_gradient_check": {
+    "method": "central_finite_difference",
+    "epsilon": 1e-06,
+    "max_absolute_error": 1.3056179306637251e-10,
+    "checks": [
+      {
+        "parameter": "Wx(0, 0)",
+        "absolute_error": 1.5540848230695403e-12,
+        "numeric": 0.0004329859804030889,
+        "analytic": 0.0004329859819571737
+      },
+      {
+        "parameter": "Wx(3, 2)",
+        "absolute_error": 7.662582141064814e-11,
+        "numeric": -5.374689582282599e-05,
+        "analytic": -5.37469724486474e-05
+      },
+      {
+        "parameter": "Wh(0, 1)",
+        "absolute_error": 2.817904835525093e-11,
+        "numeric": -8.482026192524472e-05,
+        "analytic": -8.482029010429308e-05
+      },
+      {
+        "parameter": "Wh(7, 9)",
+        "absolute_error": 1.3056179306637251e-10,
+        "numeric": -9.03296326626446e-05,
+        "analytic": -9.032976322443767e-05
+      },
+      {
+        "parameter": "b(4,)",
+        "absolute_error": 7.258113511252051e-11,
+        "numeric": -0.0018110778432500751,
+        "analytic": -0.00181107777066894
+      },
+      {
+        "parameter": "Wo(1, 5)",
+        "absolute_error": 8.501886694656235e-12,
+        "numeric": 0.022475539596111815,
+        "analytic": 0.022475539604613702
+      },
+      {
+        "parameter": "bo(0,)",
+        "absolute_error": 5.7089222238460025e-11,
+        "numeric": -0.4978541193190189,
+        "analytic": -0.49785411937610813
+      }
+    ]
+  },
+  "outcome_metrics_computed": false
+}

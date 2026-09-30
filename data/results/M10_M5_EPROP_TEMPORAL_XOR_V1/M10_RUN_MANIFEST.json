@@ -1,0 +1,14 @@
+{
+  "experiment": "M10_M5_EPROP_TEMPORAL_XOR_V1",
+  "python": "3.12.13",
+  "numpy": "2.4.4",
+  "contract_sha256": "9d3648746c303021f659703932b13b85b0f385582c3f44eaca4c9ae4b504b02a",
+  "runner_sha256": "7bce749831ff0cfdc03e13e932183dd3e5cdd57ed2530ff2a2b67d03d2e67d6c",
+  "preflight_sha256": "ffd12c2fddf931ea8df4c91742587f9698edfe458f74a4893e8e4f591c5ac68a",
+  "metrics_sha256": "d650035d49257bd874d7b610b1ca9943bb604e15a07756decb33c50461d6aab3",
+  "contrasts_sha256": "99c6d55c28c82aebe91835c406d285026de7c4f3f6d9832dca0410f64ca45266",
+  "primary_result_sha256": "b554087369eb5a46072032b304f342a10e09efcb010aa0f45166f352bfada084",
+  "postrun_verification": "PASS",
+  "verifier_sha256": "0a3626094eb18b45a97eeb0261e28cbfe6cffa28721ff11e415c2edddb32e723",
+  "verification_sha256": "706adb16441f3393c3d4b327553ded8b85127d201deacf3d20d6840169a8018f"
+}
