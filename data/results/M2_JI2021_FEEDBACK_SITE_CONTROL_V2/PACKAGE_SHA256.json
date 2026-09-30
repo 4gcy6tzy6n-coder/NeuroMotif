@@ -1,0 +1,75 @@
+{
+  "package": "M2_JI2021_FEEDBACK_SITE_CONTROL_V2",
+  "files": [
+    {
+      "path": "model/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/run_site_control.py",
+      "bytes": 11111,
+      "sha256": "4c10d7e29c72ea85f9409721d79adcdc98babfd9cf67982c37855015577b8a8c"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/PACKAGE_MANIFEST.json",
+      "bytes": 1197,
+      "sha256": "52a470b3a2e8ab55327a14e203ccfe412d6b67a19ec1791c7494527917de35ba"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/README.md",
+      "bytes": 1437,
+      "sha256": "79176bd8ae2fe67e4d8dd907fa6a9b7f51f67ebaab2b944d5205bee91dd4d156"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/SHA256SUMS.txt",
+      "bytes": 522,
+      "sha256": "eb878c6c81718b78f5e5ac7dfa5560e3251ab3bab48d967e7cd925a2cc3aa684"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/development_calibration.csv",
+      "bytes": 297324,
+      "sha256": "c583dbd7678cc1bf080e927d9f15bf7356e78b733e668c132cd50d9bc79645fe"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/feedback_site_control.png",
+      "bytes": 102073,
+      "sha256": "dbda28d8c2b67b2d5bb73a218d33a19f8b21e62000e499b864af8c023eac1aff"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/heldout_simulation_metrics.csv",
+      "bytes": 28710,
+      "sha256": "28f3d8ec1e450681a6cd9d5e052d3a1c7d31702df4d99304550f0f2078a91ad4"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/run_manifest.json",
+      "bytes": 2290,
+      "sha256": "fab771fad6a4a64d87e7fc3a735cd0946db26cb30acf8aa6b10670fd04cc8bb8"
+    },
+    {
+      "path": "data/results/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/summary.json",
+      "bytes": 5054,
+      "sha256": "4999cba0e21ebe7ea3c3d51ac1eee021c0dbe278013ad6a40bf65673063fb3ab"
+    },
+    {
+      "path": "summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/M2_JI2021_FEEDBACK_SITE_CONTROL_V2_CONTRACT.md",
+      "bytes": 1906,
+      "sha256": "aad8f1f115e864db096bc1b14164cc6bdb5be3b4e77254ec26265665bcd432e0"
+    },
+    {
+      "path": "summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/M2_JI2021_FEEDBACK_SITE_CONTROL_V2_FAILURE_LOG.md",
+      "bytes": 1008,
+      "sha256": "442a119a4b9b9378ced17e1f2da0696c86a60a5b7c7eb84d9415a39bfda9e252"
+    },
+    {
+      "path": "summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/M2_JI2021_FEEDBACK_SITE_CONTROL_V2_RESULTS.md",
+      "bytes": 2790,
+      "sha256": "a3edfcb53a22e3256b80fbced62759699c0848968e84807dca18ac18660f2e01"
+    },
+    {
+      "path": "summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/README.md",
+      "bytes": 1262,
+      "sha256": "b7324cab48cf8f5d20c83bcdf0ebfa409a70e03e07ceafbaa1cbdb8ab4dc25d6"
+    },
+    {
+      "path": "summery/M2_JI2021_FEEDBACK_SITE_CONTROL_V2/SHA256SUMS.txt",
+      "bytes": 341,
+      "sha256": "42ce793d838ab37a7273c7d7bd535940cfd564e50b7e76771240292ef6b1dbf6"
+    }
+  ]
+}

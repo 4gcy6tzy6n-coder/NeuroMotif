@@ -1,0 +1,32 @@
+{
+  "package": "M2_JI2021_FEEDBACK_SITE_CONTROL_V2",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_site_control.py",
+      "source_sha256": "dc1602e8816d37f2972bb596a1e5c238d922e60bf6b132ec05e44f4b9fcc35a6",
+      "published_sha256": "4c10d7e29c72ea85f9409721d79adcdc98babfd9cf67982c37855015577b8a8c",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "M2_JI2021_FEEDBACK_SITE_CONTROL_V2_CONTRACT.md",
+    "M2_JI2021_FEEDBACK_SITE_CONTROL_V2_FAILURE_LOG.md",
+    "M2_JI2021_FEEDBACK_SITE_CONTROL_V2_RESULTS.md",
+    "SHA256SUMS.txt"
+  ],
+  "source_results_files": [
+    "README.md",
+    "SHA256SUMS.txt",
+    "development_calibration.csv",
+    "feedback_site_control.png",
+    "heldout_simulation_metrics.csv",
+    "run_manifest.json",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}
