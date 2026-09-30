@@ -1,0 +1,39 @@
+{
+  "package": "DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "plot_results.py",
+      "source_sha256": "bde69c9429db62cb83713e85ecf93a9932a0b09bebf57bee6be552d3d680dcc9",
+      "published_sha256": "5db3967e0ecfc7e194bba23284f36c68d77690ec0e9bc6ab101840b0e40dae4b",
+      "change": "output-routing safety only; full detail documented per package"
+    },
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "7eba35a647b149989ae3c8a53127f4cb68aa922304cf5a1d3a4234ec42b1d9a0",
+      "published_sha256": "94d9ad9d7e0584922a64f33bcce72dff150074ebe9519965096fb1fb171abe4d",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "CONTRACT.md",
+    "FAILURE_LOG.md",
+    "RESULTS.md",
+    "SHA256SUMS.txt",
+    "VERIFICATION.md"
+  ],
+  "source_results_files": [
+    "SHA256SUMS.txt",
+    "natural_scene_transfer_summary.png",
+    "per_example_predictions.csv",
+    "run_manifest.json",
+    "scene_metrics_long.csv",
+    "scene_split_manifest.csv",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

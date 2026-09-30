@@ -1,0 +1,155 @@
+{
+  "package": "DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1",
+  "files": [
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/SHA256SUMS.txt",
+      "bytes": 1332,
+      "sha256": "1e1fa03cfc11c3bf28693bb2cac8d700b6fd26b521031e2a706752d9fa02b209"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/acquire_previews.py",
+      "bytes": 3685,
+      "sha256": "81f45a2adb79e1f950375d5aee2558afae734de8ce27b07df13efbaaa241dc87"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/AUTHOR_STYLE_CNN_seed_61001.pt",
+      "bytes": 4069,
+      "sha256": "bc9b712f4c47791987b8b74978d8195ab43ef304254fd7e97ff16bb9e07f3817"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/AUTHOR_STYLE_CNN_seed_61002.pt",
+      "bytes": 4069,
+      "sha256": "503636f24372fd99681488a81ebc9c3078fb43f417c475a784d9f95f2d1fffc4"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/AUTHOR_STYLE_CNN_seed_61003.pt",
+      "bytes": 4069,
+      "sha256": "9ac75c201406ce36abd4b3d8c2f2da913f12de7d8e175369180b7bcddd60e3f3"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/COUNTEREVIDENCE_MODEL_seed_61001.pt",
+      "bytes": 4396,
+      "sha256": "2dd23b23010aef157293e5524aff597d774532ce81ec9a156dcfb263bcdc1720"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/COUNTEREVIDENCE_MODEL_seed_61002.pt",
+      "bytes": 4396,
+      "sha256": "368c80acb33c537024f419b08f76ad431d498fd6ff6c46bfe1cdedca5bddfe95"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/COUNTEREVIDENCE_MODEL_seed_61003.pt",
+      "bytes": 4396,
+      "sha256": "f78a77322c799d143c6b4fa1c466cbb8cf719e18c5a85fcef0e29a70833fac5c"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/SHAM_CHANNEL_CNN_seed_61001.pt",
+      "bytes": 4341,
+      "sha256": "ebc58dd492dc07b747a8c762570964a595d8b007c6d1dc9b26a1e1d58ccd3d8a"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/SHAM_CHANNEL_CNN_seed_61002.pt",
+      "bytes": 4341,
+      "sha256": "35cd04e8106f90b659f733762b80652d248d411144ce35fe339019940231d70d"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/checkpoints/SHAM_CHANNEL_CNN_seed_61003.pt",
+      "bytes": 4341,
+      "sha256": "8e376c2af72a1cf0503024090d024ba8b26d99fda1ade73861791b1a6c6956c0"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/plot_results.py",
+      "bytes": 2541,
+      "sha256": "5db3967e0ecfc7e194bba23284f36c68d77690ec0e9bc6ab101840b0e40dae4b"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/run_experiment.py",
+      "bytes": 24943,
+      "sha256": "94d9ad9d7e0584922a64f33bcce72dff150074ebe9519965096fb1fb171abe4d"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/verify_outputs.py",
+      "bytes": 4699,
+      "sha256": "0b430aafdfe10250cb931fa4f86bce656d8c8153885a79af3d032b9bea391332"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/INPUT_PROVENANCE.md",
+      "bytes": 1202,
+      "sha256": "9e1c01dc56ea365d24f55df8f2ff76400bbaff9c2cbb83b4e1dac2edf125acd8"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/INPUT_source_manifest.json",
+      "bytes": 82076,
+      "sha256": "eb0b167fb503b7631c1ac61d30622ac54a6b91b07aec5f0a963636b56d33d78c"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/PACKAGE_MANIFEST.json",
+      "bytes": 1450,
+      "sha256": "65829cf7508450b7eed4a009ea8a24c7f41910492eba4bc6859b53224a6f3928"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/SHA256SUMS.txt",
+      "bytes": 538,
+      "sha256": "a099f81499f0f665d4744a9124de70861cefe59feabe568a8db6bf14177a0d28"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/natural_scene_transfer_summary.png",
+      "bytes": 118429,
+      "sha256": "3928cb6401e5b6774cec61620ab19848d1d49d875916c8a7f00aaaff70f04d82"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/per_example_predictions.csv",
+      "bytes": 4445149,
+      "sha256": "1fd708a42c631fcac051961ee16590e69c99bdbc27bc231d9c6b806b6cd9b744"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/run_manifest.json",
+      "bytes": 25948,
+      "sha256": "cd0ba019758c8ed3d0d065476d1fb52eebaf2d7bd8f8800c153debf16a4875f3"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/scene_metrics_long.csv",
+      "bytes": 1441358,
+      "sha256": "356ff26e76aa2355aefa8b23768e39b266918b7ab2b68f8c92dbc25b2286d5ce"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/scene_split_manifest.csv",
+      "bytes": 24634,
+      "sha256": "3ee721c83e43e0cbef4cec456a8546cf5f37980cec27cb34a3b4acfa8b4e1509"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/summary.json",
+      "bytes": 9214,
+      "sha256": "421c8ff6a9163028715a7e16756f33e861f2d4dcd081620933d9a3626d02919e"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/CONTRACT.md",
+      "bytes": 7620,
+      "sha256": "14151afcdc53c59980aa011143b763f30fdb7b50772fe0218947feb314ec7138"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/FAILURE_LOG.md",
+      "bytes": 2069,
+      "sha256": "c98d9ba6349b78d0fe0dbe0d5b0c886d851258a0198c844ad505dee6c0783697"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/README.md",
+      "bytes": 1088,
+      "sha256": "80b7db7f6e1ccd7f9c94b32599ac5742258c7c7d65400f83b744e8dbd00e4847"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/RESULTS.md",
+      "bytes": 4606,
+      "sha256": "72b2c29da17ecec2250cf35b9486da2784a1ded73984923e24fa77c6b5677fc0"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/SHA256SUMS.txt",
+      "bytes": 318,
+      "sha256": "0d2b0cac699453704fb82a34551caaa46e2d5059abbc21fcf9c661127275e8c1"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_NATURAL_SCENE_V1/VERIFICATION.md",
+      "bytes": 1022,
+      "sha256": "4540e177d097a9bab6328190ac3418ad292885e3bd042ced2ebdd50add84ffb7"
+    }
+  ]
+}
