@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import json
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -14,7 +15,7 @@ import torch.nn.functional as F
 
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / "data" / "results" / "M2_TARGETED_GAIN_OPTIMIZATION"
+OUT = ROOT / "data" / "results" / "M2_TARGETED_GAIN_OPTIMIZATION" / f"rerun_{datetime.now(timezone.utc):%Y%m%dT%H%M%SZ}"
 MASTER_SEED = 20260930
 TRAIN_SEEDS = tuple(range(10))
 TRAIN_STEPS = 200
