@@ -69,3 +69,6 @@ These rounds are preserved separately from the 12-round M2 route portfolio above
 
 The local-to-public package audit covers all 26 top-level local `model/` and `data/results/` round folders. Some source inputs are intentionally not bundled: the natural-scene acquisition package includes its public source manifest and downloader, while the published-paper workbook/source archive used by other rounds must be retrieved from the cited source record.
 
+## Project archive coverage
+
+The audit at [`summery/PROJECT_EXPERIMENT_ARCHIVE_COVERAGE_01/README.md`](summery/PROJECT_EXPERIMENT_ARCHIVE_COVERAGE_01/README.md) verifies that all 26 local model/result package directories and their per-round summaries are represented in this repository. It includes a per-file SHA-256 manifest and records the rerun-safe source-path adaptations. This closes the experiment-package coverage audit only; ancillary project documents and separately governed RR18/RR19 records are outside its scope. Scientific result states and NMI readiness are unchanged.
