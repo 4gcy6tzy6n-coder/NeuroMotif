@@ -72,3 +72,7 @@ The local-to-public package audit covers all 26 top-level local `model/` and `da
 ## Project archive coverage
 
 The audit at [`summery/PROJECT_EXPERIMENT_ARCHIVE_COVERAGE_01/README.md`](summery/PROJECT_EXPERIMENT_ARCHIVE_COVERAGE_01/README.md) verifies that all 26 local model/result package directories and their per-round summaries are represented in this repository. It includes a per-file SHA-256 manifest and records the rerun-safe source-path adaptations. This closes the experiment-package coverage audit only; ancillary project documents and separately governed RR18/RR19 records are outside its scope. Scientific result states and NMI readiness are unchanged.
+
+## Whole-project evidence status
+
+The original four-result positive chain is not established: the tested whole-connectome result is a bounded negative; Fish1.5 E1 did not support its positive recurrence–persistence hypothesis and its frozen topology null is invalid/indeterminate; cross-system convergence and biological motif-to-LNN benefit remain unestablished. The prospective biology route is deferred because laboratory access and assay capability are unconfirmed. This is an operational limit, not a biological negative result. See the [full-project evidence report](summery/PROJECT_FULL_EVIDENCE_REPORT_01/README.md) and its linked source-of-record documents. The report is an internal evidence-bounded synthesis, not a submission-ready manuscript; NMI readiness remains not ready.
