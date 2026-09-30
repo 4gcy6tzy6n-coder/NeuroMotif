@@ -1,0 +1,32 @@
+{
+  "package": "DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1",
+  "status": "SOURCE_RESULTS_AND_SUMMARIES_MATCH",
+  "results_files_byte_identical": true,
+  "summary_source_files_byte_identical": true,
+  "python_syntax_checked": true,
+  "model_code_adaptations": [
+    {
+      "file": "run_experiment.py",
+      "source_sha256": "1d67a1c31c606a91252c255bf7dfef5ec4a0f644f9178b1da34190dc076586fc",
+      "published_sha256": "f29b5dc8c9035a1a52ecc2a3fa9aca425789cca9a1661c8752647f03c4bcbb13",
+      "change": "output-routing safety only; full detail documented per package"
+    }
+  ],
+  "source_summary_files": [
+    "DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_CONTRACT.md",
+    "DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_FAILURE_LOG.md",
+    "DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_RESULTS.md",
+    "SHA256SUMS.txt"
+  ],
+  "source_results_files": [
+    "README.md",
+    "SHA256SUMS.txt",
+    "counterevidence_coverage_shift.png",
+    "episode_predictions.csv",
+    "run_manifest.json",
+    "seed_block_metrics.csv",
+    "summary.json"
+  ],
+  "third_party_raw_input_policy": "Not copied unless explicitly documented; public source manifest/links are retained where applicable.",
+  "experiment_rerun_for_publication": false
+}

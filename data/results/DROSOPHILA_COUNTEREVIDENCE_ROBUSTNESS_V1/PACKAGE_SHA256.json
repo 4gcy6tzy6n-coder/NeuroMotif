@@ -1,0 +1,80 @@
+{
+  "package": "DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1",
+  "files": [
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/SHA256SUMS.txt",
+      "bytes": 84,
+      "sha256": "ea6cf9e9e2a737e6b5e300627e36625d1d0d28140873960d682f2049283d1031"
+    },
+    {
+      "path": "model/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/run_experiment.py",
+      "bytes": 12478,
+      "sha256": "f29b5dc8c9035a1a52ecc2a3fa9aca425789cca9a1661c8752647f03c4bcbb13"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/PACKAGE_MANIFEST.json",
+      "bytes": 1216,
+      "sha256": "75aa3d8d78653835e2a2e434ffa1181a73aa5d824d9c2f2686396e3aab1d7960"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/README.md",
+      "bytes": 1102,
+      "sha256": "a5150e0c512cf115a6caba4231dcd82c458dd00757664bc3055e0907f7dbff3f"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/SHA256SUMS.txt",
+      "bytes": 519,
+      "sha256": "19ccb869e91d46715a859d74eafba3787963e89ae89d6800f165000bb52c1c1f"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/counterevidence_coverage_shift.png",
+      "bytes": 50802,
+      "sha256": "d83b5390858773e0a5576152179d1df3492342fbbd2a58bc394a73bb4109201a"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/episode_predictions.csv",
+      "bytes": 51078260,
+      "sha256": "b86ff615354fcfa4674dddf7a25b71084174f933c53addd495afa9689411cd11"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/run_manifest.json",
+      "bytes": 1084,
+      "sha256": "3de1b6ce0be8735652fb3bd29407c392d8dd5039fe638b1743bcc8f454e83468"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/seed_block_metrics.csv",
+      "bytes": 280244,
+      "sha256": "4068df88dad556ff259ad82dc561fa814fe128585d7f26cebc1baeb8beb0482d"
+    },
+    {
+      "path": "data/results/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/summary.json",
+      "bytes": 10667,
+      "sha256": "62406ebaaed08246ce2ef0fa674b461ca585104d1789c7d6388c2e804ceb4655"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_CONTRACT.md",
+      "bytes": 3807,
+      "sha256": "b5bbf66527dd11a86b679e13a4e7688d29720a760f285f745a4c32b3ec52969c"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_FAILURE_LOG.md",
+      "bytes": 1391,
+      "sha256": "e51460be174dbcb7cbc9e67dddff188fd5c3917c9b55be62477850d30a81bcd5"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1_RESULTS.md",
+      "bytes": 3011,
+      "sha256": "8596f74beba222e338496af22a81744f4b29b667b9c2f5f42b194228f456972a"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/README.md",
+      "bytes": 1322,
+      "sha256": "bb8df1036e6853321c90c0c284a3ef347448135a89837d91e135e6ece46390de"
+    },
+    {
+      "path": "summery/DROSOPHILA_COUNTEREVIDENCE_ROBUSTNESS_V1/SHA256SUMS.txt",
+      "bytes": 359,
+      "sha256": "a85ebc9764c554bc232a7bfb3eb3ec95c6730fb86ef50075110c1331f20d2c49"
+    }
+  ]
+}
