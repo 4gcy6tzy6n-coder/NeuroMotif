@@ -18,6 +18,8 @@ Synthetic benchmark outcomes are engineering results for their stated tasks. The
 
 The owner authorized continued scientific execution without waiting for a venue or story choice. The current route is a new, separately frozen artificial transfer test grounded in the published *C. elegans* AFD–AIY/RIM motor-state feedback mechanism, at cell-class scope. Existing M2 experiments remain historical and closed to retuning; the new study must use a distinct task family and architecture-level comparison. E4-v1 remains blocked by public data schema and has not been run. Any model result can support only a **biologically motivated AI transfer** claim, not biological validation. If the frozen test does not support its bounded prediction, the project will route to an evidence-boundary manuscript. See the [owner-authorized route decision and current evidence matrix](summery/PROJECT_OWNER_AUTHORIZED_ROUTE_SWITCH_20261001/README.md).
 
+The new Route B transfer contract is frozen as [M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1](summery/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/README.md); it has not yet been implemented or run.
+
 The archived M2 runs below are the completed historical transfer attempts; their results are not pooled or changed by the new route decision. The complete run artifacts and round-specific caveats are in the linked `summery/<round>/RESULTS.md` files.
 
 | Round | What the archived result supports | Boundary / disposition |

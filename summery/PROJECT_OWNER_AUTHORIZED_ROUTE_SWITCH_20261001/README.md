@@ -42,9 +42,11 @@ The local M5 evidence narrative cites Kimpo et al. (2014), DOI `10.7554/eLife.02
 
 ## Immediate next execution
 
-Create and freeze a **new Route B transfer contract** in the clean publication worktree. First specify an architecture-level test of the motor-state feedback computation on task data not used in the existing M2 studies; do not reopen the fixed-gate or targeted-gain contracts. The contract must compare the biological abstraction with a parameter-matched generic recurrent controller and remove/shuffle the motor-state feedback path as ablations. Run once under the frozen contract, preserve all outcomes, then route automatically to the supported interpretation.
+The Route B contract `M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1` is now frozen in the clean publication worktree. It specifies a new closed-loop tracking task, parameter-matched generic GRU, motor-input ablations, paired task-seed units, fixed training budget, viability criteria, and automatic disposition. The contract hash and pre-run state are recorded in its round package.
 
-**Status:** evidence inventory and route update complete; new experiment contract not yet frozen; no new AI model outcome inspected.
+**Next execution:** implement the frozen models; verify parameter counts and preflight integrity before training; run once; retain all outcomes and route to the claim they support.
+
+**Status:** evidence inventory and route update complete; M12 contract frozen, not implemented or run; no M12 outcome inspected.
 
 ## Authoritative evidence files
 

@@ -1,0 +1,22 @@
+{
+  "experiment_id": "M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1",
+  "contract_status": "FROZEN_BEFORE_IMPLEMENTATION_AND_OUTCOME_GENERATION",
+  "outcomes_generated": false,
+  "experiment_run": false,
+  "contract_path": "summery/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/CONTRACT.md",
+  "contract_sha256": "4388efe88dedc124ad69e496d9397060adc2a9716fb18bd1e04643f852ba7b55",
+  "independent_unit": "paired task-seed block",
+  "seeds": {
+    "start": 812000,
+    "end_inclusive": 812039,
+    "count": 40
+  },
+  "parameter_count_gate": {
+    "motor_gated_rnn": 232,
+    "generic_gru": 223,
+    "max_relative_difference": 0.05
+  },
+  "primary_endpoint": "held-out closed-loop normalized tracking MSE",
+  "primary_contrast": "MOTOR_GATED_RNN minus GENERIC_GRU",
+  "analysis_seed": 812999
+}
