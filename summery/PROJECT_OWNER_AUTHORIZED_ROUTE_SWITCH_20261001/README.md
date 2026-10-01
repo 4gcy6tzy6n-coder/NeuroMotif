@@ -44,9 +44,9 @@ The local M5 evidence narrative cites Kimpo et al. (2014), DOI `10.7554/eLife.02
 
 The Route B contract `M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1` is now frozen in the clean publication worktree. It specifies a new closed-loop tracking task, parameter-matched generic GRU, motor-input ablations, paired task-seed units, fixed training budget, viability criteria, and automatic disposition. The contract hash and pre-run state are recorded in its round package.
 
-**Next execution:** implement the frozen models; verify parameter counts and preflight integrity before training; run once; retain all outcomes and route to the claim they support.
+**Next execution:** run the frozen M12 implementation; preserve every outcome; independently verify artifact completeness and summary arithmetic.
 
-**Status:** evidence inventory and route update complete; M12 contract frozen, not implemented or run; no M12 outcome inspected.
+**Status:** evidence inventory and route update complete; M12 contract frozen; implementation preflight passed; not run; no M12 outcome inspected.
 
 ## Authoritative evidence files
 

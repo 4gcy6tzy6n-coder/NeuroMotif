@@ -1,0 +1,13 @@
+{
+  "experiment_id": "M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1",
+  "status": "PASS",
+  "outcomes_generated": false,
+  "parameter_counts": {"MOTOR_GATED_RNN": 232, "GENERIC_GRU": 223},
+  "relative_parameter_difference": 0.04035874439461883,
+  "maximum_allowed_difference": 0.05,
+  "contract_hash_match": true,
+  "amendment_hash_match": true,
+  "runner_hash_match": true,
+  "verifier_hash_match": true,
+  "resolved_config_hash_match": true
+}

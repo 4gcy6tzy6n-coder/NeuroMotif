@@ -20,5 +20,8 @@
   "primary_contrast": "MOTOR_GATED_RNN minus GENERIC_GRU",
   "analysis_seed": 812999,
   "pre_run_amendment_path": "summery/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/AMENDMENT_PRE_RUN_01.md",
-  "pre_run_amendment_sha256": "e94f244c3aba8d0137c6ad047bd6a4676a5c950dec11b0bbb1326b79a6bbea7f"
+  "pre_run_amendment_sha256": "e94f244c3aba8d0137c6ad047bd6a4676a5c950dec11b0bbb1326b79a6bbea7f",
+  "runner_sha256": "8fe139ee1c3259fb96af50e35098dbc5704652f3bedbeea74db2c182d0a1975d",
+  "verifier_sha256": "1dd585939fcc249092996368b56671dd7ba757c7f41b32793ebfba09ffb8cb56",
+  "resolved_config_sha256": "fa7c74a18cffaf8706292925fc2f51ee75d9fc0880845d2bc9dc039fbe02b520"
 }
