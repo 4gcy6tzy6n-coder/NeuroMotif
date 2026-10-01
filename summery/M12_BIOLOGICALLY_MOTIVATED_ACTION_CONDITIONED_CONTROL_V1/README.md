@@ -10,4 +10,4 @@ The frozen protocol is [`CONTRACT.md`](CONTRACT.md). Its SHA-256 is recorded in 
 
 **Execution:** all 40 paired seed blocks completed. The 7-unit gated model has 232 trainable parameters and the 6-unit GRU has 223 (4.04% difference, below the 5% limit). The prespecified benchmark-viability criterion failed: the known-generator reference improved over the reactive reference by 4.78%, below the 10% requirement. The run therefore remains inconclusive under the frozen contract. The pre-run verifier had a JSON serialization defect; its file and hash are preserved, and an independent corrective post-run checker passed all 27 checks.
 
-**Next:** no v1 tuning. The project automatically returns to Route D, the evidence-boundary manuscript package. Full metrics, verifier issue, and interpretation limits are in [`RESULTS.md`](RESULTS.md).
+**Next:** no v1 tuning. Route D remains the project route; M12 is retained as a supplemental outcome-informed engineering/boundary result. Full metrics, verifier issue, and interpretation limits are in [`RESULTS.md`](RESULTS.md).

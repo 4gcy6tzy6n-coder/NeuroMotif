@@ -20,7 +20,7 @@ The automatic contract disposition controls interpretation despite these descrip
 
 ## Project consequence
 
-The Route B test did not clear its prespecified viability gate. Under the owner-authorized automatic routing rule, the project returns to **Route D: an evidence-boundary manuscript package**. The reportable result is that this transfer test was inconclusive because the chosen benchmark did not satisfy its viability criterion, with the descriptive model contrasts retained as engineering evidence. This route switch does not retroactively change Fish1.5, E4-v1, M2, or any other historical result.
+The M12 artificial transfer test did not clear its prespecified viability gate. Under the public NeuroMotif route record, this returns the main line to **Route D: an evidence-boundary manuscript package**. During manuscript integration, the broader local project charter was also checked and found to already mark Route D active and no nonredundant Route B question open before M12 execution. M12 is therefore retained as a separately frozen, project-level outcome-informed supplemental engineering test; it does not supersede that charter or constitute a confirmatory Route B study. The reportable result is that this transfer test was inconclusive because the chosen benchmark did not satisfy its viability criterion, with descriptive model contrasts retained as engineering evidence. This record does not retroactively change Fish1.5, E4-v1, M2, or any other historical result.
 
 ## Artifacts
 

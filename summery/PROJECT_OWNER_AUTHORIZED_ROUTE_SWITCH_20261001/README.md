@@ -50,7 +50,7 @@ The Route B contract `M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1` 
 
 ## Post-M12 automatic route update — 2026-10-01
 
-M12 completed all 40 paired task-seed blocks. The known-generator reference's relative improvement over the reactive reference was 4.78%, below the contract's 10% task-viability threshold; therefore `M12 = INCONCLUSIVE_TASK_VIABILITY_FAILED`. A separate corrective checker passed all 27 verification checks after the frozen pre-run verifier failed to serialize a NumPy boolean. The frozen verifier, its hash, contract, runner, and outcomes remain unchanged; the verifier defect is documented in the M12 results.
+M12 completed all 40 paired task-seed blocks. The known-generator reference's relative improvement over the reactive reference was 4.78%, below the contract's 10% task-viability threshold; therefore `M12 = INCONCLUSIVE_TASK_VIABILITY_FAILED`. A separate corrective checker passed all 27 verification checks after the frozen pre-run verifier failed to serialize a NumPy boolean. The frozen verifier, its hash, contract, runner, and outcomes remain unchanged; the verifier defect is documented in the M12 results. During manuscript integration, the broader local charter was checked and found to already mark Route D active and no nonredundant Route B question open before M12 execution. M12 is consequently supplemental, project-level outcome-informed engineering evidence, not a confirmatory Route B test; Route D remains active.
 
 ```text
 WHY_PREVIOUS_ROUTE_STOPPED = ROUTE_B_M12 DID NOT CLEAR ITS FROZEN TASK-VIABILITY GATE; V1 MUST NOT BE TUNED
@@ -59,7 +59,7 @@ NEW_ROUTE = ROUTE_D; COMPLETE THE EVIDENCE-BOUNDARY MANUSCRIPT PACKAGE
 CLAIM_CHANGE = M12 IS AN INCONCLUSIVE ENGINEERING/BOUNDARY RESULT; IT DOES NOT SUPPORT OR FALSIFY THE PUBLISHED WORM MECHANISM OR A GENERAL AI BENEFIT
 ```
 
-This automatic fallback is an execution decision under the owner authorization, not a manuscript submission decision. Route A remains operationally unavailable without an executable lab/access path; Route C remains unqualified under the current evidence. The M12 row is added to the current evidence matrix, now 36 rows, as `BOUNDARY|ENGINEERING_ONLY`.
+This route status records the post-M12 state in the public mirror; it is not a manuscript submission decision. Route A remains operationally unavailable without an executable lab/access path; Route C remains unqualified under the current evidence. The M12 row is added to the current evidence matrix, now 36 rows, as `BOUNDARY|ENGINEERING_ONLY`.
 
 ## Authoritative evidence files
 
