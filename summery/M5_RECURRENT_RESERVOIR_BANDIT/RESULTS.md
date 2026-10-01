@@ -8,6 +8,10 @@ Across 30 task seeds, averaging the paired eligibility-trace minus no-trace held
 
 This supports a narrow claim: on this fixed random recurrent-reservoir policy and this synthetic contextual-bandit objective, the norm-matched eligibility update modestly exceeded the current-score update. The primary mean was smaller than in the feed-forward bandit run (+0.00914), and the benefit decayed with delay. The reservoir state was recurrent, but its core weights were fixed; only the linear readout was trained. This is not a trained RNN/LNN/LTC, architecture-family generalization, biological evidence, or connectome transfer.
 
+## Important task limitation
+
+Each context is freshly and independently sampled, and each reward depends only on the current context/action. The fixed reservoir therefore mixes prior *independent* contexts into the current feature; the task has no sequential hidden-state dependency that requires recurrence. This run tests an eligibility update on features produced by a recurrent filter, not learning temporal structure in a recurrent task. No claim that recurrence itself helped is supported.
+
 ## Execution and audit
 
 The run produced 360 seed × delay × arm metric rows, 4,320 training-trajectory rows, and 120 seed-delay contrast rows. An independent post-run script recomputed the seed-level estimand and 20,000-resample bootstrap interval from the saved metrics; all values were finite and the frozen contract and runner hashes matched preflight.
