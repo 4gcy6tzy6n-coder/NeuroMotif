@@ -14,3 +14,4 @@ Do not erase failed or superseded runs; retain them as provenance.
 
 - `M5_RECURRENT_RESERVOIR_BANDIT/` — outcome-informed recurrent-reservoir follow-up contract, findings, limitations, and checksum manifest.
 - `FISH15_POSTRESULT_RECURRENCE_NULL_V1/` — Fish1.5 sparse-graph diagnosis, conditional-null limitations, reproduction boundary, and failure lessons.
+- `PROJECT_OWNER_AUTHORIZED_ROUTE_SWITCH_20261001/` — owner-authorized route update and claim-scoped current evidence matrix, with local-versus-public source coverage recorded.

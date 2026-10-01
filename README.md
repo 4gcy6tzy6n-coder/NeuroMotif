@@ -14,9 +14,11 @@ Each experiment round is committed separately after its results and summary are 
 
 Synthetic benchmark outcomes are engineering results for their stated tasks. They are not biological validation or evidence of general AI benefit unless an experiment directly supports that claim. Consult each round's `summery/<round>/README.md` and `RESULTS.md` for scope and limitations.
 
-## M2 route: published mechanism to synthetic computation
+## Current owner-authorized route: new Route B transfer study
 
-The active project route uses the published *C. elegans* AFD–AIY/RIM mechanism as a bounded biological reference and evaluates the project's synthetic abstractions. E4-v1 remains blocked by data-schema limitations; none of the M2 results below is biological validation. The complete run artifacts and round-specific caveats are in the linked `summery/<round>/RESULTS.md` files.
+The owner authorized continued scientific execution without waiting for a venue or story choice. The current route is a new, separately frozen artificial transfer test grounded in the published *C. elegans* AFD–AIY/RIM motor-state feedback mechanism, at cell-class scope. Existing M2 experiments remain historical and closed to retuning; the new study must use a distinct task family and architecture-level comparison. E4-v1 remains blocked by public data schema and has not been run. Any model result can support only a **biologically motivated AI transfer** claim, not biological validation. If the frozen test does not support its bounded prediction, the project will route to an evidence-boundary manuscript. See the [owner-authorized route decision and current evidence matrix](summery/PROJECT_OWNER_AUTHORIZED_ROUTE_SWITCH_20261001/README.md).
+
+The archived M2 runs below are the completed historical transfer attempts; their results are not pooled or changed by the new route decision. The complete run artifacts and round-specific caveats are in the linked `summery/<round>/RESULTS.md` files.
 
 | Round | What the archived result supports | Boundary / disposition |
 |---|---|---|
@@ -33,7 +35,7 @@ The active project route uses the published *C. elegans* AFD–AIY/RIM mechanism
 | [Parameter-matched hazard test](summery/M2_PARAMETER_MATCHED_HAZARD_V1/README.md) | Corrected crossed-bootstrap interval favored the learned no-gate controller on the tested grid. | Outcome-informed synthetic follow-up; hazard holdouts do not constitute a new task family. |
 | [Targeted-gain optimization](summery/M2_TARGETED_GAIN_OPTIMIZATION/README.md) | The primary learned-gain comparison was inconclusive, with opposite signs across the two hazards. | Optimization line stopped; no further tuning is justified by this result. |
 
-**Project-level reading:** these rounds do not establish that the published biological mechanism fails. They show that the current scalar feedback and state-gating implementations do not provide robust, general AI benefit in the tested synthetic settings. The defensible deliverable is a mechanism-transfer boundary analysis, not a claim of validated biological inductive bias. The current local NMI-readiness assessment is `NOT_READY`; see the route decision in the analysis workspace before making any venue claim.
+**Project-level reading:** these rounds do not establish that the published biological mechanism fails. They show that the tested scalar feedback and state-gating implementations did not provide robust, general AI benefit in the tested synthetic settings. They do not close the new, distinct Route B study. No synthetic result is biological validation, and the local NMI-readiness assessment remains `NOT_READY`.
 ## Additional completed synthetic studies
 
 These are separate exploratory computations and do not belong to the M2 transfer portfolio. They are included to preserve the full evidence and correction history.
