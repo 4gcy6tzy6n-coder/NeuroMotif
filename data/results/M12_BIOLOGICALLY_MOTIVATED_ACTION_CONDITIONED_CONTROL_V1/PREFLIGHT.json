@@ -18,5 +18,7 @@
   },
   "primary_endpoint": "held-out closed-loop normalized tracking MSE",
   "primary_contrast": "MOTOR_GATED_RNN minus GENERIC_GRU",
-  "analysis_seed": 812999
+  "analysis_seed": 812999,
+  "pre_run_amendment_path": "summery/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/AMENDMENT_PRE_RUN_01.md",
+  "pre_run_amendment_sha256": "e94f244c3aba8d0137c6ad047bd6a4676a5c950dec11b0bbb1326b79a6bbea7f"
 }

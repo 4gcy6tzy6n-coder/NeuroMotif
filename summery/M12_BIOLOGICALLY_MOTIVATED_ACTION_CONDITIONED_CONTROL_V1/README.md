@@ -6,6 +6,6 @@ M12 tests whether an explicit motor-state-gated recurrent controller can imitate
 
 The study is grounded in the published *C. elegans* AFD–AIY/RIM motor-state feedback computation at cell-class scope. It does not use animal data, test biological validation, identify a unique synaptic carrier, or claim the synthetic task is homologous to worm thermotaxis. Prior M2 results are known; this is not confirmatory.
 
-The frozen protocol is [`CONTRACT.md`](CONTRACT.md). Its SHA-256 is recorded in [`CONTRACT.sha256`](CONTRACT.sha256). The pre-run manifest is in `data/results/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/PREFLIGHT.json`.
+The frozen protocol is [`CONTRACT.md`](CONTRACT.md). Its SHA-256 is recorded in [`CONTRACT.sha256`](CONTRACT.sha256). Pre-run statistical and random-stream details are fixed in [`AMENDMENT_PRE_RUN_01.md`](AMENDMENT_PRE_RUN_01.md). The pre-run manifest is in `data/results/M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1/PREFLIGHT.json`.
 
 **Next:** implement the contract exactly, verify the parameter counts before training, then run once. No outcomes have been generated.
