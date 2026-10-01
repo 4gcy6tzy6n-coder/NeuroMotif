@@ -22,7 +22,7 @@ The new Route B task must be a **new study**, not another tuning round in the cl
 
 ## Evidence classification
 
-The row-level inventory is in [`PROJECT_CURRENT_EVIDENCE_MATRIX_V2.csv`](PROJECT_CURRENT_EVIDENCE_MATRIX_V2.csv). Categories are claim-scoped: `POSITIVE` means only the named contrast or source finding; `NEGATIVE` means the declared positive prediction was not supported; `BOUNDARY` means evidence resolution/identifiability or generalization limit; `INVALID` means an inferential/measurement path cannot answer its frozen question; `ENGINEERING_ONLY` means synthetic/software evidence; `SUPPORTING` means context or candidate evidence that has not cleared the target claim. The CSV distinguishes the local authoritative record from its public mirror. At this route-update release, 15/35 rows link to a public round record; the other 20 underlying source records remain outside this curated GitHub mirror. This is an archive-coverage limitation, not a change to their evidence status.
+The row-level inventory is in [`PROJECT_CURRENT_EVIDENCE_MATRIX_V2.csv`](PROJECT_CURRENT_EVIDENCE_MATRIX_V2.csv). Categories are claim-scoped: `POSITIVE` means only the named contrast or source finding; `NEGATIVE` means the declared positive prediction was not supported; `BOUNDARY` means evidence resolution/identifiability or generalization limit; `INVALID` means an inferential/measurement path cannot answer its frozen question; `ENGINEERING_ONLY` means synthetic/software evidence; `SUPPORTING` means context or candidate evidence that has not cleared the target claim. The CSV distinguishes the local authoritative record from its public mirror. The initial route update covered 35 rows; this post-M12 update adds one public round record, bringing the matrix to 36 rows. Other underlying source records remain outside this curated GitHub mirror. This archive-coverage limitation does not change their evidence status.
 
 No effects across different tasks, animals, species, units or mechanisms are pooled. A source model reproducing a published result is not independent animal replication. A blocked test is not a biological negative. Projectome/projection resolution is not synapse-level identity.
 
@@ -44,9 +44,22 @@ The local M5 evidence narrative cites Kimpo et al. (2014), DOI `10.7554/eLife.02
 
 The Route B contract `M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1` is now frozen in the clean publication worktree. It specifies a new closed-loop tracking task, parameter-matched generic GRU, motor-input ablations, paired task-seed units, fixed training budget, viability criteria, and automatic disposition. The contract hash and pre-run state are recorded in its round package.
 
-**Next execution:** run the frozen M12 implementation; preserve every outcome; independently verify artifact completeness and summary arithmetic.
+**Next execution (at route selection):** implement and run the frozen M12 study once; preserve every outcome; independently verify artifact completeness and summary arithmetic.
 
-**Status:** evidence inventory and route update complete; M12 contract frozen; implementation preflight passed; not run; no M12 outcome inspected.
+**Status (at route selection):** evidence inventory and route update complete; M12 contract frozen; implementation preflight passed; not run; no M12 outcome inspected. The post-run state is recorded below without changing this historical snapshot.
+
+## Post-M12 automatic route update — 2026-10-01
+
+M12 completed all 40 paired task-seed blocks. The known-generator reference's relative improvement over the reactive reference was 4.78%, below the contract's 10% task-viability threshold; therefore `M12 = INCONCLUSIVE_TASK_VIABILITY_FAILED`. A separate corrective checker passed all 27 verification checks after the frozen pre-run verifier failed to serialize a NumPy boolean. The frozen verifier, its hash, contract, runner, and outcomes remain unchanged; the verifier defect is documented in the M12 results.
+
+```text
+WHY_PREVIOUS_ROUTE_STOPPED = ROUTE_B_M12 DID NOT CLEAR ITS FROZEN TASK-VIABILITY GATE; V1 MUST NOT BE TUNED
+EVIDENCE_TRIGGER = 4.78% KNOWN-GENERATOR REFERENCE IMPROVEMENT < 10% PRESET THRESHOLD; CORRECTIVE POST-RUN VERIFICATION PASSED
+NEW_ROUTE = ROUTE_D; COMPLETE THE EVIDENCE-BOUNDARY MANUSCRIPT PACKAGE
+CLAIM_CHANGE = M12 IS AN INCONCLUSIVE ENGINEERING/BOUNDARY RESULT; IT DOES NOT SUPPORT OR FALSIFY THE PUBLISHED WORM MECHANISM OR A GENERAL AI BENEFIT
+```
+
+This automatic fallback is an execution decision under the owner authorization, not a manuscript submission decision. Route A remains operationally unavailable without an executable lab/access path; Route C remains unqualified under the current evidence. The M12 row is added to the current evidence matrix, now 36 rows, as `BOUNDARY|ENGINEERING_ONLY`.
 
 ## Authoritative evidence files
 

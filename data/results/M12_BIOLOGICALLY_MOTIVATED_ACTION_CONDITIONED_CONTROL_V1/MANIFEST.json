@@ -1,0 +1,18 @@
+{
+  "experiment_id": "M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1",
+  "inputs": {
+    "contract_sha256": "4388efe88dedc124ad69e496d9397060adc2a9716fb18bd1e04643f852ba7b55",
+    "amendment_sha256": "e94f244c3aba8d0137c6ad047bd6a4676a5c950dec11b0bbb1326b79a6bbea7f",
+    "runner_sha256": "8fe139ee1c3259fb96af50e35098dbc5704652f3bedbeea74db2c182d0a1975d",
+    "verifier_sha256": "1dd585939fcc249092996368b56671dd7ba757c7f41b32793ebfba09ffb8cb56",
+    "preflight_sha256": "bdfc4aea35381c45cbe312596b1a36878cdf759b4bcbb72b52189dd332fc024a",
+    "resolved_config_sha256": "fa7c74a18cffaf8706292925fc2f51ee75d9fc0880845d2bc9dc039fbe02b520"
+  },
+  "outputs": {
+    "episode_metrics.csv": "315de785a32ce383f4937d71853aa2ed7007451d6c8780585de95fb85999780b",
+    "per_seed_summary.csv": "8b9f60f6ea9840b512dc9273069c186438e6451ee202384e7162c0e0718ad5e3",
+    "training_log.csv": "8b3856511cf7660547afc39d7b3958d2d9f247ba3450017b39aca47f9d3898b5",
+    "SUMMARY.json": "9d402b5a69a778853a18e9bcd1db5b10286281b0cbf7758d8440cefd8cba93c1",
+    "IMPLEMENTATION_PREFLIGHT.json": "5e95b734d4a7c51901d147774641a48724807bded3bcc06ca3318a78007a2c83"
+  }
+}

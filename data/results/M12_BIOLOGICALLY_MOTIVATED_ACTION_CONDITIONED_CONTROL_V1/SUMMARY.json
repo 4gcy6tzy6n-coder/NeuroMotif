@@ -1,0 +1,90 @@
+{
+  "experiment_id": "M12_BIOLOGICALLY_MOTIVATED_ACTION_CONDITIONED_CONTROL_V1",
+  "classification": "ENGINEERING_ONLY",
+  "status": "INCONCLUSIVE_TASK_VIABILITY_FAILED",
+  "outcome_informed_at_project_level": true,
+  "contract_sha256": "4388efe88dedc124ad69e496d9397060adc2a9716fb18bd1e04643f852ba7b55",
+  "amendment_sha256": "e94f244c3aba8d0137c6ad047bd6a4676a5c950dec11b0bbb1326b79a6bbea7f",
+  "independent_unit": "paired task-seed block",
+  "seed_count": 40,
+  "test_episodes_per_seed_arm": 128,
+  "steps_per_episode": 256,
+  "parameter_counts": {
+    "MOTOR_GATED_RNN": 232,
+    "GENERIC_GRU": 223,
+    "MOTOR_ZERO_ABLATION": 232,
+    "MOTOR_PERMUTED_ABLATION": 232
+  },
+  "parameter_relative_difference": 0.04035874439461883,
+  "runner_sha256": "8fe139ee1c3259fb96af50e35098dbc5704652f3bedbeea74db2c182d0a1975d",
+  "verifier_sha256": "1dd585939fcc249092996368b56671dd7ba757c7f41b32793ebfba09ffb8cb56",
+  "resolved_config_sha256": "fa7c74a18cffaf8706292925fc2f51ee75d9fc0880845d2bc9dc039fbe02b520",
+  "preflight_sha256": "bdfc4aea35381c45cbe312596b1a36878cdf759b4bcbb72b52189dd332fc024a",
+  "implementation_preflight_sha256": "5e95b734d4a7c51901d147774641a48724807bded3bcc06ca3318a78007a2c83",
+  "primary": {
+    "contrast": "MOTOR_GATED_RNN minus GENERIC_GRU",
+    "mean_difference": 0.0023206864325746534,
+    "ci95_percentile_seed_bootstrap": [
+      0.0016664867482270396,
+      0.003092577039226926
+    ],
+    "generic_gru_mean_normalized_mse": 0.1522462176159482,
+    "relative_error_reduction": -0.015242982511583627,
+    "practical_threshold": 0.02
+  },
+  "secondary": {
+    "MOTOR_ZERO_ABLATION": {
+      "mean_difference": 0.00025191738891956403,
+      "ci95_percentile_seed_bootstrap": [
+        -0.0006189103574132831,
+        0.0011527832275448056
+      ],
+      "paired_t_p_two_sided": 0.5861923947438835,
+      "holm_adjusted_p": 0.5861923947438835
+    },
+    "MOTOR_PERMUTED_ABLATION": {
+      "mean_difference": 0.0007342514035502776,
+      "ci95_percentile_seed_bootstrap": [
+        -7.537324241795872e-05,
+        0.0015301008085064943
+      ],
+      "paired_t_p_two_sided": 0.08519257949397711,
+      "holm_adjusted_p": 0.17038515898795423
+    }
+  },
+  "motor_path_ablation_support": {
+    "MOTOR_ZERO_ABLATION": false,
+    "MOTOR_PERMUTED_ABLATION": false
+  },
+  "mechanism_specific_transfer": "NOT_BIOLOGICALLY_VALIDATED; NOT_ESTABLISHED",
+  "task_viability": {
+    "reference_relative_improvement_over_reactive": 0.047777454504109175,
+    "reference_failure_rate_max": 0.0,
+    "passed": false
+  },
+  "arm_means_normalized_mse": {
+    "MOTOR_GATED_RNN": 0.15456690404852286,
+    "GENERIC_GRU": 0.1522462176159482,
+    "MOTOR_ZERO_ABLATION": 0.1543149866596033,
+    "MOTOR_PERMUTED_ABLATION": 0.15383265264497256,
+    "KNOWN_GENERATOR_KALMAN_FIXED_GAIN": 0.15412568945149135,
+    "MEMORYLESS_REACTIVE": 0.16185889546568866
+  },
+  "failure_counts": {
+    "MOTOR_GATED_RNN": 0,
+    "GENERIC_GRU": 0,
+    "MOTOR_ZERO_ABLATION": 0,
+    "MOTOR_PERMUTED_ABLATION": 0,
+    "KNOWN_GENERATOR_KALMAN_FIXED_GAIN": 0,
+    "MEMORYLESS_REACTIVE": 0
+  },
+  "runtime_seconds": 1664.6138207912445,
+  "environment": {
+    "python": "3.12.13 (main, Mar  3 2026, 15:35:03) [Clang 21.1.4 ]",
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "torch": "2.11.0",
+    "torch_threads": 1
+  }
+}
